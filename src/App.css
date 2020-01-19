@@ -1,38 +1,75 @@
+@import '~antd/dist/antd.css';
+
+
+
 .App {
-  text-align: center;
+  /*text-align: center;*/
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.BookList {
+  /*max-width: 1300px;*/
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.BookList-item {
+  margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.BookGroup.ant-typography {
+  /*text-align: right;*/
+  background-color: #e8e8e8;
+  margin: 5px 8px;
+  padding: 5px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.Book {
+  height: 100%;
+}
+.Book .ant-card {
+  flex: 1 0 250px;
+  max-width: 250px;
+  height: 100%;
+  position: relative;
+}
+.Book .ant-card-cover {
+  position: relative;
+}
+.Book-tags {
+  position: absolute;
+  top: 4px;
+  right: -4px;
+  text-align: right;
+}
+.Book-tags .ant-tag {
+  border-radius: 0;
+  margin-right: 0;
+  background-color: #d9d9d9;
+}
+.Book-year {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  text-align: right;
+}
+.Book-year-text {
+  background-color: rgba(239, 239, 239, 0.8);
+  display: inline-block;
+  padding: 3px;
+  line-height: 1;
+}
+.Book .ant-card-meta-title {
+  overflow: unset;
+  white-space: normal;
+  line-height: 1.2;
+  margin-bottom: 5px !important;
+}
+.Book .ant-card-body {
+  border-top: 1px solid #e8e8e8;
+}
+@media only screen and (max-width: 600px) {
+  .Book .ant-card {
+    width: 170px;
   }
 }

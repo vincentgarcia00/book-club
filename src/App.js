@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import BookList from "./components/BookList";
+import books from './data.json';
+import {Typography} from 'antd';
+
+const getYears = books => {
+  return [...new Set(books.map(b => b.year))];
+};
 
 function App() {
+  const recentBooks = books.reverse();
+  const years = getYears(recentBooks);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        {
+          years.map((year, idx) =>
+              <div key={idx}>
+                <Typography.Title level={2} className="BookGroup">{year}</Typography.Title>
+                <BookList books={recentBooks.filter(b => b.year === year)}/>
+              </div>
+          )}
+      </div>
   );
 }
 
