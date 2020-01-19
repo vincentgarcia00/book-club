@@ -14,14 +14,23 @@
   margin: 0 auto;
 }
 .BookList-item {
+  display: flex;
+  justify-content: center;
+}
+.BookList-item-margin {
   margin: 5px;
 }
 
 .BookGroup.ant-typography {
-  /*text-align: right;*/
-  background-color: #e8e8e8;
-  margin: 5px 8px;
+  background-color: rgb(236, 236, 236);
   padding: 5px 10px;
+}
+.BookGroup-year.ant-typography {
+  text-align: right;
+}
+
+.BookList.ant-row::before {
+  display: inherit;
 }
 
 .Book {
