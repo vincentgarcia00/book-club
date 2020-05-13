@@ -23,7 +23,7 @@ class UpcomingBooks extends React.Component {
     return (
         <div>
           <Button type="default" onClick={this.showDrawer}>
-            View {books.length} Upcoming Book{books.length === 1 ? '' : 's'}<Icon type="double-right" />
+            {books.length} Upcoming <Icon type="double-right" />
           </Button>
           <Drawer
               title={`Upcoming Books (${books.length})`}

@@ -2,6 +2,7 @@ import React from "react";
 import {Card, Icon, Tag} from 'antd';
 
 const Book = ({book}) => {
+  if (!book) return null;
   return (
       <div className="Book">
         <Card
