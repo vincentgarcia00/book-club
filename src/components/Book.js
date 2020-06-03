@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, Icon, Tag} from 'antd';
+import {Card, Icon} from 'antd';
 
 const Book = ({book}) => {
   if (!book) return null;
@@ -9,26 +9,24 @@ const Book = ({book}) => {
             size="small"
             hoverable
             cover={
-              <>
-                <img src={book.image} alt="Book cover"/>
-                <div className="Book-year">
-                  <div className="Book-year-text">
-                    {book.year_published}
-                  </div>
-                </div>
-              </>
+              <img src={book.image} alt="Book cover"/>
             }
         >
-          <div className="Book-tags">
-            {/*    <div><Tag>{book.genre}</Tag></div>*/}
-            {/*    <div><Tag>{book.international ? 'Non-US ' : ''}{book.ethnicity} {book.gender}</Tag></div>*/}
-          </div>
           <Card.Meta
-              title={book.title}
+              title={
+                  <div>
+                      <span className="Book-icon">
+                          {book.best_of === 'TRUE' && <Icon style={{color: '#c60000', marginRight: 5}} type="heart" theme="filled" />}
+                          {book.worst_of === 'TRUE' && <Icon style={{color: 'gray', marginRight: 5}} type="dislike" theme="filled" />}
+                      </span>
+                      {book.title}
+                  </div>
+              }
               description={
                 <>
-                  <div>{book.series}</div>
+                  {/*<div>{book.series}</div>*/}
                   <div>by {book.author}</div>
+                  <div className="Book-year">{book.year_published}</div>
                 </>
               }
           />

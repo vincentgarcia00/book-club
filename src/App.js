@@ -4,7 +4,7 @@ import Book from "./components/Book";
 import BookList from "./components/BookList";
 import UpcomingBooks from "./components/UpcomingBooks";
 import * as api from './api';
-import {Typography, Affix, Icon, PageHeader, Row, Col} from 'antd';
+import {Icon, PageHeader, Row, Col, Divider} from 'antd';
 
 const App = () => {
   const [books, setBooks] = useState([]);
@@ -25,11 +25,12 @@ const App = () => {
             title={<><Icon type="book" /> Book Club</>}
             subTitle="Alive and kicking since 2015"/>
 
-          <Affix>
-              <Typography.Title level={2} className="BookGroup">
-                  <Icon type="pushpin" /> Currently Reading
-              </Typography.Title>
-          </Affix>
+            <Divider orientation="left">
+               <span style={{display: 'inline-flex', alignItems: 'center'}}>
+                   <Icon type="pushpin" style={{marginRight: 5}} />
+                   <span style={{fontSize: 24}}>Currently Reading</span>
+               </span>
+            </Divider>
             <Row className="BookList">
                 <Col xs={12} sm={8} md={6} lg={4} className="BookList-item">
                     <div className="BookList-item-margin">
@@ -48,12 +49,13 @@ const App = () => {
              const booksInYear = recentBooks.filter(b => b.year === year);
              return (
                  <div key={idx}>
-                <Affix><Typography.Title level={2} className="BookGroup BookGroup-year">
-                    <div style={{display:'flex', justifyContent:'space-between'}}>
-                        <span>{year}</span>
-                        <span>{booksInYear.length} Books</span>
-                    </div>
-                </Typography.Title></Affix>
+                     <Divider orientation="left">
+                       <span style={{display: 'inline-flex', alignItems: 'center'}}>
+                           <Icon type="double-right" style={{marginRight: 5}} />
+                           <span style={{fontSize: 24}}>{year}</span>
+                       </span>
+                       <span style={{fontSize: 14, color: 'gray', fontWeight: 'normal', marginLeft: 10}}>{booksInYear.length} Books</span>
+                     </Divider>
                 <BookList books={booksInYear}/>
               </div>
              );
