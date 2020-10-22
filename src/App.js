@@ -4,7 +4,8 @@ import Book from "./components/Book";
 import BookList from "./components/BookList";
 import UpcomingBooks from "./components/UpcomingBooks";
 import * as api from './api';
-import {Icon, PageHeader, Row, Col, Divider} from 'antd';
+import {PageHeader, Row, Col, Divider} from 'antd';
+import {PushpinOutlined, BookOutlined,DoubleRightOutlined} from '@ant-design/icons';
 
 const App = () => {
   const [books, setBooks] = useState([]);
@@ -22,12 +23,12 @@ const App = () => {
   return (
       <div className="App">
         <PageHeader
-            title={<><Icon type="book" /> Book Club</>}
+            title={<><BookOutlined />  Book Club</>}
             subTitle="Alive and kicking since 2015"/>
 
             <Divider orientation="left">
                <span style={{display: 'inline-flex', alignItems: 'center'}}>
-                   <Icon type="pushpin" style={{marginRight: 5}} />
+                   <PushpinOutlined style={{marginRight: 5}} />
                    <span style={{fontSize: 24}}>Currently Reading</span>
                </span>
             </Divider>
@@ -51,7 +52,7 @@ const App = () => {
                  <div key={idx}>
                      <Divider orientation="left">
                        <span style={{display: 'inline-flex', alignItems: 'center'}}>
-                           <Icon type="double-right" style={{marginRight: 5}} />
+                           <DoubleRightOutlined style={{marginRight: 5}} />
                            <span style={{fontSize: 24}}>{year}</span>
                        </span>
                        <span style={{fontSize: 14, color: 'gray', fontWeight: 'normal', marginLeft: 10}}>{booksInYear.length} Books</span>

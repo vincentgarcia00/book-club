@@ -1,6 +1,7 @@
 import React from "react";
-import { Drawer, Button, Icon } from 'antd';
+import { Drawer, Button } from 'antd';
 import BookList from "./BookList";
+import {DoubleRightOutlined} from '@ant-design/icons';
 
 class UpcomingBooks extends React.Component {
   state = { visible: false };
@@ -23,7 +24,7 @@ class UpcomingBooks extends React.Component {
     return (
         <div>
           <Button type="default" onClick={this.showDrawer}>
-            {books.length} Upcoming <Icon type="double-right" />
+            {books.length} Upcoming <DoubleRightOutlined />
           </Button>
           <Drawer
               title={`Upcoming Books (${books.length})`}

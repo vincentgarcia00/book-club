@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Icon} from 'antd';
+import {Card} from 'antd';
+import {HeartFilled, DislikeFilled} from '@ant-design/icons';
 
 const Book = ({book}) => {
   if (!book) return null;
@@ -17,8 +18,8 @@ const Book = ({book}) => {
                   title={
                       <div>
                           <span className="Book-icon">
-                              {book.best_of === 'TRUE' && <Icon style={{color: '#c60000', marginRight: 5}} type="heart" theme="filled" />}
-                              {book.worst_of === 'TRUE' && <Icon style={{color: 'gray', marginRight: 5}} type="dislike" theme="filled" />}
+                              {book.best_of === 'TRUE' && <HeartFilled style={{color: '#c60000', marginRight: 5}} />}
+                              {book.worst_of === 'TRUE' && <DislikeFilled style={{color: 'gray', marginRight: 5}} />}
                           </span>
                           {book.title}
                       </div>
