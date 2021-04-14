@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm run deploy`
 
-To deploy to Github Pages
+To deploy to Github Pages. This will run the build first.
 
 ### `yarn start`
 
