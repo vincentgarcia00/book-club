@@ -7,19 +7,17 @@ body {
 .ant-page-header {
   padding: 10px 16px;
 }
-
+.ant-page-header-heading-title {
+  font-size: 30px;
+}
 .ant-card-bordered .ant-card-cover {
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
-
-
 .App {
   width: 100%;
 }
-
 .BookList {
-  /*max-width: 1300px;*/
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -35,8 +33,8 @@ body {
 .BookList.ant-row::before {
   display: inherit;
 }
-.ant-divider-horizontal::before,
-.ant-divider-horizontal::after {
+.ant-divider-with-text::before,
+.ant-divider-with-text::after {
   border-top: 1px solid #939393 !important;
 }
 
@@ -66,4 +64,42 @@ body {
 }
 .Book .ant-card-body {
   border-top: 1px solid #ccc;
+}
+
+
+.BookList-item-current .Book {
+  height: inherit;
+}
+.BookList-item-current .Book .ant-card {
+  height: inherit;
+}
+
+/*{
+  Antd breakpoints
+  xs: '480px',
+  sm: '576px',
+  md: '768px',
+  lg: '992px',
+  xl: '1200px',
+  xxl: '1600px',
+}*/
+@media (max-width: 575px) {
+  .hideXs {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .hideSm {
+    display: none !important;
+  }
+}
+@media (max-width: 991px) {
+  .hideMd {
+    display: none !important;
+  }
+}
+@media (min-width: 991px) {
+  .hideLg {
+    display: none !important;
+  }
 }

@@ -4,8 +4,8 @@ import Book from "./components/Book";
 import BookList from "./components/BookList";
 import UpcomingBooks from "./components/UpcomingBooks";
 import * as api from './api';
-import {PageHeader, Row, Col, Divider} from 'antd';
-import {PushpinOutlined, BookOutlined,DoubleRightOutlined} from '@ant-design/icons';
+import {PageHeader, Row, Col, Divider, Button} from 'antd';
+import {BookOutlined, CalendarOutlined, DoubleRightOutlined, PushpinOutlined} from '@ant-design/icons';
 
 const App = () => {
   const [books, setBooks] = useState([]);
@@ -25,23 +25,28 @@ const App = () => {
         <PageHeader
             title={<><BookOutlined />  Book Club</>}
             subTitle="Alive and kicking since 2015"/>
-
-            <Divider orientation="left">
-               <span style={{display: 'inline-flex', alignItems: 'center'}}>
-                   <PushpinOutlined style={{marginRight: 5}} />
-                   <span style={{fontSize: 24}}>Currently Reading</span>
-               </span>
-            </Divider>
+          <h2 style={{marginLeft: '5px', marginBottom: '0'}}>
+              <PushpinOutlined style={{marginRight: 5}} />Reading Now
+          </h2>
             <Row className="BookList">
-                <Col xs={12} sm={8} md={6} lg={4} className="BookList-item">
-                    <div className="BookList-item-margin">
-                        <Book book={currentlyReading} />
-                    </div>
-                </Col>
-                <Col xs={12} sm={8} md={6} lg={4} className="BookList-item">
-                    <div className="BookList-item-margin">
-                        <UpcomingBooks books={upcoming} />
-                    </div>
+
+                <BookList books={[currentlyReading]} className="BookList-item-current"/>
+
+                <Col xs={12} sm={16} md={18} lg={20}>
+                    <UpcomingBooks books={upcoming} />
+                    <Row className="upcoming-books">
+                        {upcoming.map((book, idx) => {
+                            const hideXs = idx > 0, hideSm = idx > 1, hideMd = idx > 3, hideLg = idx > 5;
+                            return (
+                                <Col key={idx} xs={22} sm={10} md={6} lg={4}
+                                     className={`BookList-item BookList-item-current ${hideXs ? 'hideXs' : ''} ${hideSm ? 'hideSm' : ''} ${hideMd ? 'hideMd' : ''} ${hideLg ? 'hideLg' : ''}`}>
+                                    <div className="BookList-item-margin">
+                                        <Book book={book} key={idx}/>
+                                    </div>
+                                </Col>
+                            )}
+                        )}
+                    </Row>
                 </Col>
             </Row>
 
@@ -57,8 +62,10 @@ const App = () => {
                        </span>
                        <span style={{fontSize: 14, color: 'gray', fontWeight: 'normal', marginLeft: 10}}>{booksInYear.length} Books</span>
                      </Divider>
-                <BookList books={booksInYear}/>
-              </div>
+                     <Row className="BookList">
+                        <BookList books={booksInYear}/>
+                     </Row>
+                </div>
              );
           })
         }

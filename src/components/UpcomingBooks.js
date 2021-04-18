@@ -1,7 +1,7 @@
 import React from "react";
-import { Drawer, Button } from 'antd';
+import { Drawer, Button, Row } from 'antd';
 import BookList from "./BookList";
-import {DoubleRightOutlined} from '@ant-design/icons';
+import {CalendarOutlined} from '@ant-design/icons';
 
 class UpcomingBooks extends React.Component {
   state = { visible: false };
@@ -23,9 +23,23 @@ class UpcomingBooks extends React.Component {
 
     return (
         <div>
-          <Button type="default" onClick={this.showDrawer}>
-            {books.length} Upcoming <DoubleRightOutlined />
-          </Button>
+            <h4 style={{marginLeft: '5px', marginBottom: '0'}}>
+                <CalendarOutlined style={{marginRight: 5}} />Upcoming
+                <Button
+                    type="link"
+                    onClick={this.showDrawer}
+                    style={{
+                        padding: '0',
+                        paddingLeft: '15px',
+                        lineHeight: 'inherit',
+                        height: 'inherit',
+                        fontSize: '12px'
+                    }}
+                >
+                    View all
+                    {/*{books.length} Upcoming <DoubleRightOutlined />*/}
+                </Button>
+            </h4>
           <Drawer
               title={`Upcoming Books (${books.length})`}
               placement="bottom"
@@ -34,7 +48,9 @@ class UpcomingBooks extends React.Component {
               visible={this.state.visible}
               height={515}
           >
-            <BookList books={books} />
+              <Row>
+                  <BookList books={books} />
+              </Row>
           </Drawer>
         </div>
     );

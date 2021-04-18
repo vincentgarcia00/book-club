@@ -27,7 +27,7 @@ const Book = ({book}) => {
                   description={
                     <>
                       {/*<div>{book.series}</div>*/}
-                      <div>by {book.author}</div>
+                      <div className="Book-author">{book.author}</div>
                       <div className="Book-year">{book.year_published}</div>
                     </>
                   }

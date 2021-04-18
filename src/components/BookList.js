@@ -1,19 +1,17 @@
 import React from 'react';
-import {Row, Col} from 'antd';
+import {Col} from 'antd';
 import Book from './Book';
 
-const BookList = ({books}) => {
+const BookList = ({books, className = ''}) => {
   return (
-      <Row className="BookList">
-        {books.map((book, idx) =>
-            <Col key={idx} xs={12} sm={8} md={6} lg={4} className="BookList-item">
-              <div className="BookList-item-margin">
-                <Book book={book} key={idx}/>
-              </div>
-            </Col>
-        )}
-      </Row>
-  )
+    books.map((book, idx) =>
+        <Col key={idx} xs={12} sm={8} md={6} lg={4} className={`BookList-item ${className}`} >
+          <div className="BookList-item-margin">
+            <Book book={book} key={idx}/>
+          </div>
+        </Col>
+    )
+  );
 };
 
 export default BookList;
