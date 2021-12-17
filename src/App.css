@@ -1,14 +1,11 @@
 @import '~antd/dist/antd.css';
 
 body {
-  background-color: #f4f4f4;
+  background-color: #ffffff;
 }
 
 .ant-page-header {
   padding: 10px 16px;
-}
-.ant-page-header-heading-title {
-  font-size: 30px;
 }
 .ant-card-bordered .ant-card-cover {
     -webkit-transform: translateY(0);

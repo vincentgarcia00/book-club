@@ -1,7 +1,7 @@
 import React from "react";
 import { Drawer, Button, Row } from 'antd';
 import BookList from "./BookList";
-import {CalendarOutlined} from '@ant-design/icons';
+import {CalendarOutlined, FrownOutlined} from '@ant-design/icons';
 
 class UpcomingBooks extends React.Component {
   state = { visible: false };
@@ -36,10 +36,14 @@ class UpcomingBooks extends React.Component {
                         fontSize: '12px'
                     }}
                 >
-                    View all
-                    {/*{books.length} Upcoming <DoubleRightOutlined />*/}
+                    {books.length ? `View All (${books.length})` : null}
                 </Button>
             </h4>
+          {
+            books.length ?
+                null :
+                <div style={{padding: 10}}>No upcoming books <FrownOutlined /></div>
+          }
           <Drawer
               title={`Upcoming Books (${books.length})`}
               placement="bottom"

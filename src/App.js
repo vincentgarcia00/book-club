@@ -6,6 +6,7 @@ import UpcomingBooks from "./components/UpcomingBooks";
 import * as api from './api';
 import {PageHeader, Row, Col, Divider, Button} from 'antd';
 import {BookOutlined, CalendarOutlined, DoubleRightOutlined, PushpinOutlined} from '@ant-design/icons';
+import {PageHeader, Row, Col, Divider, Button, Layout} from 'antd';
 
 const App = () => {
   const [books, setBooks] = useState([]);
@@ -25,34 +26,42 @@ const App = () => {
         <PageHeader
             title={<><BookOutlined />  Book Club</>}
             subTitle="Alive and kicking since 2015"/>
-          <h2 style={{marginLeft: '5px', marginBottom: '0'}}>
-              <PushpinOutlined style={{marginRight: 5}} />Reading Now
-          </h2>
-            <Row className="BookList">
 
-                <BookList books={[currentlyReading]} className="BookList-item-current"/>
+        {/* Reading Now */}
+        <h2 style={{marginLeft: '5px', marginBottom: '0'}}>
+          <PushpinOutlined style={{marginRight: 5}} />Reading Now
+        </h2>
+        <Row className="BookList">
+            <BookList books={[currentlyReading]} className="BookList-item-current"/>
 
-                <Col xs={12} sm={16} md={18} lg={20}>
-                    <UpcomingBooks books={upcoming} />
-                    <Row className="upcoming-books">
-                        {upcoming.map((book, idx) => {
-                            const hideXs = idx > 0, hideSm = idx > 1, hideMd = idx > 3, hideLg = idx > 5;
-                            return (
-                                <Col key={idx} xs={22} sm={10} md={6} lg={4}
-                                     className={`BookList-item BookList-item-current ${hideXs ? 'hideXs' : ''} ${hideSm ? 'hideSm' : ''} ${hideMd ? 'hideMd' : ''} ${hideLg ? 'hideLg' : ''}`}>
-                                    <div className="BookList-item-margin">
-                                        <Book book={book} key={idx}/>
-                                    </div>
-                                </Col>
-                            )}
+            {/* Upcoming Books */}
+            <Col xs={12} sm={16} md={18} lg={20}>
+                <UpcomingBooks books={upcoming} />
+                <Row className="upcoming-books">
+                    {upcoming.map((book, idx) => {
+                        const hideXs = idx > 0, hideSm = idx > 1, hideMd = idx > 3, hideLg = idx > 5;
+                        return (
+                            <Col key={idx} xs={22} sm={10} md={6} lg={4}
+                                 className={`BookList-item BookList-item-current ${hideXs ? 'hideXs' : ''} ${hideSm ? 'hideSm' : ''} ${hideMd ? 'hideMd' : ''} ${hideLg ? 'hideLg' : ''}`}>
+                                <div className="BookList-item-margin">
+                                    <Book book={book} key={idx}/>
+                                </div>
+                            </Col>
                         )}
-                    </Row>
-                </Col>
-            </Row>
+                    )}
+                </Row>
+            </Col>
+        </Row>
 
+        <h2>Read Previously</h2>
+        {/* Previously Read */}
+          <div>
+              <Button onClick={toggleFavorites}><FavoriteIcon/> {showFavorites ? 'Hide' : 'Show'} Favorites</Button>
+              <Button onClick={toggleDisliked}><DislikeIcon/> {showDisliked ? 'Hide' : 'Show'} Disliked</Button>
+          </div>
         {
           years.map((year, idx) => {
-             const booksInYear = recentBooks.filter(b => b.year === year);
+             const booksInYear = filteredBooks.filter(b => b.year === year);
              return (
                  <div key={idx}>
                      <Divider orientation="left">
@@ -69,6 +78,7 @@ const App = () => {
              );
           })
         }
+        <Layout.Footer style={{ textAlign: 'center' }}>Made by Maria Knabe<br />Using Ant Design and Sheet Best</Layout.Footer>
       </div>
   );
 };
