@@ -4,19 +4,46 @@ import Book from "./components/Book";
 import BookList from "./components/BookList";
 import UpcomingBooks from "./components/UpcomingBooks";
 import * as api from './api';
-import {PageHeader, Row, Col, Divider, Button} from 'antd';
-import {BookOutlined, CalendarOutlined, DoubleRightOutlined, PushpinOutlined} from '@ant-design/icons';
 import {PageHeader, Row, Col, Divider, Button, Layout} from 'antd';
+import {BookOutlined, DoubleRightOutlined, PushpinOutlined} from '@ant-design/icons';
+import FavoriteIcon from "./components/FavoriteIcon";
+import DislikeIcon from "./components/DislikeIcon";
 
 const App = () => {
   const [books, setBooks] = useState([]);
+  const [filteredBooks, setFilteredBooks] = useState([]);
+  const [showFavorites, setShowFavorites] = useState(false);
+  const [showDisliked, setShowDisliked] = useState(false);
+
 
   useEffect(() => {
-    api.getBooks().then(setBooks);
+    api.getBooks().then(books => {
+      const reversed = books.reverse();
+      setBooks(reversed);
+      setFilteredBooks(reversed);
+    });
   }, []);
 
-  const recentBooks = books.reverse();
-  const years = [...new Set(books.map(b => b.year))].filter(y => !isNaN(y));
+  const toggleFavorites = () => {
+    if (!showFavorites) {
+      setFilteredBooks(books.filter(b => b.best_of === 'TRUE'));
+    } else {
+      setFilteredBooks(books);
+    }
+    setShowFavorites(!showFavorites);
+    setShowDisliked(false);
+  };
+  const toggleDisliked = () => {
+    if (!showDisliked) {
+      setFilteredBooks(books.filter(b => b.worst_of === 'TRUE'));
+    } else {
+      setFilteredBooks(books);
+    }
+    setShowDisliked(!showDisliked);
+    setShowFavorites(false);
+  };
+
+  const years = [...new Set(filteredBooks.map(b => b.year))].filter(y => !isNaN(y));
 
   const currentlyReading = books.find(b => b.year === 'Currently Reading');
   const upcoming = books.filter(b => b.year === 'Upcoming').reverse();
@@ -53,12 +80,12 @@ const App = () => {
             </Col>
         </Row>
 
-        <h2>Read Previously</h2>
-        {/* Previously Read */}
-          <div>
-              <Button onClick={toggleFavorites}><FavoriteIcon/> {showFavorites ? 'Hide' : 'Show'} Favorites</Button>
-              <Button onClick={toggleDisliked}><DislikeIcon/> {showDisliked ? 'Hide' : 'Show'} Disliked</Button>
-          </div>
+        {/* Filters */}
+        <div style={{marginTop: 20}}>
+            <Button style={{margin: 5}} onClick={toggleFavorites}><FavoriteIcon/> {showFavorites ? 'Show All' : 'Show Favorites'}</Button>
+            <Button style={{margin: 5}} onClick={toggleDisliked}><DislikeIcon/> {showDisliked ? 'Show All' : 'Show Disliked'}</Button>
+        </div>
+
         {
           years.map((year, idx) => {
              const booksInYear = filteredBooks.filter(b => b.year === year);
