@@ -4,7 +4,7 @@ import Book from "./components/Book";
 import BookList from "./components/BookList";
 import UpcomingBooks from "./components/UpcomingBooks";
 import * as api from './api';
-import {PageHeader, Row, Col, Divider, Button, Layout} from 'antd';
+import {PageHeader, Row, Col, Divider, Button, Layout, Tag} from 'antd';
 import {BookOutlined, DoubleRightOutlined, PushpinOutlined} from '@ant-design/icons';
 import FavoriteIcon from "./components/FavoriteIcon";
 import DislikeIcon from "./components/DislikeIcon";
@@ -42,8 +42,19 @@ const App = () => {
     setShowDisliked(!showDisliked);
     setShowFavorites(false);
   };
+  const filterGenre = (genre) => {
+    setFilteredBooks(books.filter(b => b.genre.split('|').indexOf(genre) > -1));
+  };
 
   const years = [...new Set(filteredBooks.map(b => b.year))].filter(y => !isNaN(y));
+
+  const genres = Object.entries(books
+      .flatMap(b => b.genre.split('|'))
+      .reduce((genres, genre) => {
+        const existing = genres[genre] ?? 0;
+        return {...genres, [genre]: existing+1};
+      }, {}))
+      .sort((a, b) => a[0] > b[0]);
 
   const currentlyReading = books.find(b => b.year === 'Currently Reading');
   const upcoming = books.filter(b => b.year === 'Upcoming').reverse();
@@ -84,6 +95,11 @@ const App = () => {
         <div style={{marginTop: 20}}>
             <Button style={{margin: 5}} onClick={toggleFavorites}><FavoriteIcon/> {showFavorites ? 'Show All' : 'Show Favorites'}</Button>
             <Button style={{margin: 5}} onClick={toggleDisliked}><DislikeIcon/> {showDisliked ? 'Show All' : 'Show Disliked'}</Button>
+
+            {/* Genre Cloud */}
+            <div className="GenreCloud" style={{maxWidth: 390}}>
+              {genres.map(genre => <Tag onClick={() => filterGenre(genre[0])} key={genre[0]}>{genre[0]} ({genre[1]})</Tag>)}
+            </div>
         </div>
 
         {

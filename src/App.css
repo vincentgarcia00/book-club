@@ -71,6 +71,11 @@ body {
   height: inherit;
 }
 
+.GenreCloud .ant-tag {
+  margin: 3px;
+  cursor: pointer;
+}
+
 /*{
   Antd breakpoints
   xs: '480px',
