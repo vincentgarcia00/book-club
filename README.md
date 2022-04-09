@@ -33,3 +33,5 @@ The API is powered by a Google Sheet using [Sheet.Best](https://sheet.best/).
 ## TODO
 - [ ] Caching
 - [ ] Stats page
+- [ ] Keep track of who read each book
+- [ ] Scrap book info from Goodreads
