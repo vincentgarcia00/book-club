@@ -49,6 +49,7 @@ const App = () => {
   const years = [...new Set(filteredBooks.map(b => b.year))].filter(y => !isNaN(y));
 
   const genres = Object.entries(books
+      .filter(b => b.genre)
       .flatMap(b => b.genre.split('|'))
       .reduce((genres, genre) => {
         const existing = genres[genre] ?? 0;
