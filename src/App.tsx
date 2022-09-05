@@ -19,12 +19,13 @@ const App = () => {
   const [filteredBooks, setFilteredBooks] = useState<IBook[]>([]);
   const [showFavorites, setShowFavorites] = useState<boolean>(false);
   const [showDisliked, setShowDisliked] = useState<boolean>(false);
+  const [error, setError] = useState<string>();
 
   useEffect(() => {
     api.getBooks().then(books => {
       setBooks(books);
       setFilteredBooks(books);
-    });
+    }).catch(setError);
   }, []);
 
   const toggleFavorites = () => {
@@ -47,6 +48,10 @@ const App = () => {
   };
   const filterGenre = (genre: string) => {
     setFilteredBooks(books.filter(b => b.genres.indexOf(genre) > -1));
+  };
+
+  if (error) {
+    return <>There was an error</>;
   };
 
   const years = [...new Set(filteredBooks.map(b => b.year))].filter(y => y && !isNaN(y));

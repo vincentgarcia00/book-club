@@ -4,7 +4,12 @@ const sheetBestUrl = "https://sheet.best/api/sheets/aa1f111c-28d5-4803-bf7f-64a3
 
 const get = (url?: string) => {
   return fetch(`${sheetBestUrl}${url ?? ''}`)
-    .then(response => response.json());
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(response.statusText);
+      }
+      return response.json();
+    });
 };
 
 const getBookList = () => {
@@ -26,7 +31,7 @@ export const getBooks = () : Promise<IBook[]> => {
     getReaderStats()
   ]).then(results => {
     const [books, stats, readerStats] = results;
-
+    
     return books.map((book: ISheetBestBook, idx: number) => ({
       ...book,
       isCurrentlyReading: book.year === 'Currently Reading',
