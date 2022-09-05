@@ -1,4 +1,3 @@
-import React from "react";
 import {DislikeFilled} from "@ant-design/icons";
 
 const DislikeIcon = () => {

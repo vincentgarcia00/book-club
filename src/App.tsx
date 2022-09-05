@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Book from "./components/Book";
 import BookList from "./components/BookList";
@@ -8,24 +8,28 @@ import {PageHeader, Row, Col, Divider, Button, Layout, Tag, Spin} from 'antd';
 import {BookOutlined, DoubleRightOutlined, PushpinOutlined} from '@ant-design/icons';
 import FavoriteIcon from "./components/FavoriteIcon";
 import DislikeIcon from "./components/DislikeIcon";
+import IBook from './types/IBook';
+
+interface IGenreList {
+  [key: string]: number
+}
 
 const App = () => {
-  const [books, setBooks] = useState([]);
-  const [filteredBooks, setFilteredBooks] = useState([]);
-  const [showFavorites, setShowFavorites] = useState(false);
-  const [showDisliked, setShowDisliked] = useState(false);
+  const [books, setBooks] = useState<IBook[]>([]);
+  const [filteredBooks, setFilteredBooks] = useState<IBook[]>([]);
+  const [showFavorites, setShowFavorites] = useState<boolean>(false);
+  const [showDisliked, setShowDisliked] = useState<boolean>(false);
 
   useEffect(() => {
     api.getBooks().then(books => {
-      const reversed = books.reverse();
-      setBooks(reversed);
-      setFilteredBooks(reversed);
+      setBooks(books);
+      setFilteredBooks(books);
     });
   }, []);
 
   const toggleFavorites = () => {
     if (!showFavorites) {
-      setFilteredBooks(books.filter(b => b.best_of === 'TRUE'));
+      setFilteredBooks(books.filter(b => b.best_of));
     } else {
       setFilteredBooks(books);
     }
@@ -34,30 +38,29 @@ const App = () => {
   };
   const toggleDisliked = () => {
     if (!showDisliked) {
-      setFilteredBooks(books.filter(b => b.worst_of === 'TRUE'));
+      setFilteredBooks(books.filter(b => b.worst_of));
     } else {
       setFilteredBooks(books);
     }
     setShowDisliked(!showDisliked);
     setShowFavorites(false);
   };
-  const filterGenre = (genre) => {
-    setFilteredBooks(books.filter(b => b.genre.split('|').indexOf(genre) > -1));
+  const filterGenre = (genre: string) => {
+    setFilteredBooks(books.filter(b => b.genres.indexOf(genre) > -1));
   };
 
-  const years = [...new Set(filteredBooks.map(b => b.year))].filter(y => !isNaN(y));
+  const years = [...new Set(filteredBooks.map(b => b.year))].filter(y => y && !isNaN(y));
 
   const genres = Object.entries(books
-      .filter(b => b.genre)
-      .flatMap(b => b.genre.split('|'))
-      .reduce((genres, genre) => {
+      .flatMap(b => b.genres)
+      .reduce((genres: IGenreList, genre) => {
         const existing = genres[genre] ?? 0;
         return {...genres, [genre]: existing+1};
       }, {}))
-      .sort((a, b) => a[0] > b[0]);
+      .sort((a, b) => a[1] > b[1] ? -1 : 1);
 
-  const currentlyReading = books.find(b => b.year === 'Currently Reading');
-  const upcoming = books.filter(b => b.year === 'Upcoming').reverse();
+  const currentlyReading = books.find(b => b.isCurrentlyReading);
+  const upcoming = books.filter(b => b.isUpcoming).reverse();
 
   return (
       <div className="App">
@@ -72,7 +75,7 @@ const App = () => {
               <PushpinOutlined style={{marginRight: 5}} />Reading Now
             </h2>
             <Row className="BookList BookList-Upcoming">
-              <BookList books={[currentlyReading]} className="BookList-item-current"/>
+              {!!currentlyReading && <BookList books={[currentlyReading]} className="BookList-item-current"/>}
 
               {/* Upcoming Books */}
               <Col xs={12} sm={16} md={18} lg={20}>

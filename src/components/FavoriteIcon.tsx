@@ -1,4 +1,3 @@
-import React from "react";
 import {HeartFilled} from "@ant-design/icons";
 
 const FavoriteIcon = () => {

@@ -1,8 +1,13 @@
-import React from "react";
 import {Card} from 'antd';
-import {HeartFilled, DislikeFilled} from '@ant-design/icons';
+import IBook from "../types/IBook";
+import FavoriteIcon from './FavoriteIcon';
+import DislikeIcon from './DislikeIcon';
 
-const Book = ({book}) => {
+interface IProps {
+  book: IBook
+}
+
+const Book = ({book}: IProps) => {
   if (!book) return null;
   return (
       <div className="Book">
@@ -18,8 +23,8 @@ const Book = ({book}) => {
                   title={
                       <div>
                           <span className="Book-icon">
-                              {book.best_of === 'TRUE' && <HeartFilled style={{color: '#c60000', marginRight: 5}} />}
-                              {book.worst_of === 'TRUE' && <DislikeFilled style={{color: 'gray', marginRight: 5}} />}
+                              {book.best_of && <FavoriteIcon />}
+                              {book.worst_of && <DislikeIcon />}
                           </span>
                           {book.title}
                       </div>
