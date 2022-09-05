@@ -39,7 +39,7 @@ const UpcomingBooks = ({books}: IProps) => {
             placement="bottom"
             closable
             onClose={() => setVisible(false)}
-            visible={visible}
+            open={visible}
             height={515}
         >
             <Row>

@@ -1,6 +1,7 @@
 import IBook, { ISheetBestBook } from "../types/IBook";
 
 const sheetBestUrl = "https://sheet.best/api/sheets/aa1f111c-28d5-4803-bf7f-64a3f2295352";
+const useCache = process.env.NODE_ENV === 'development'
 
 const get = (url?: string) => {
   return fetch(`${sheetBestUrl}${url ?? ''}`)
@@ -12,15 +13,23 @@ const get = (url?: string) => {
     });
 };
 
+const getFromCache = (url: string) => {
+  return fetch(`book-club/cache${url}`)
+    .then(response => response.json());
+}
+
 const getBookList = () => {
+  if (useCache) return getFromCache('/books.json');
   return get();
 };
 
 const getBookStats = () => {
+  if (useCache) return getFromCache('/stats.json');
   return get('/tabs/Book%20Stats');
 };
 
 const getReaderStats = () => {
+  if (useCache) return getFromCache('/readerStats.json');
   return get('/tabs/Reader%20Stats');
 };
 
