@@ -981,48 +981,111 @@
     "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576829724l/53142315._SX318_SY475_.jpg"
   },
   {
-    "year": "Currently Reading",
+    "year": "2022",
     "title": "All American Boys",
     "author": "Jason Reynolds",
     "series": "",
-    "date_read": "",
+    "date_read": "9/21",
     "goodreads_link": "https://www.goodreads.com/book/show/25657130-all-american-boys",
     "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444506678l/25657130.jpg"
   },
   {
-    "year": "Upcoming",
+    "year": "2022",
     "title": "Jade City",
     "author": "Fonda Lee",
     "series": "The Green Bone Saga #1",
-    "date_read": "",
+    "date_read": "10/19",
     "goodreads_link": "https://www.goodreads.com/book/show/43587154-jade-city",
     "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547625704l/43587154._SY475_.jpg"
   },
   {
-    "year": "Upcoming",
+    "year": "2022",
     "title": "Rebecca",
     "author": "Daphne du Maurier",
     "series": "",
-    "date_read": "",
+    "date_read": "11/16",
     "goodreads_link": "https://www.goodreads.com/book/show/17899948-rebecca",
     "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386605169l/17899948.jpg"
   },
   {
-    "year": "Upcoming",
+    "year": "2022",
     "title": "Anxious People",
     "author": "Fredrik Backman",
     "series": "",
-    "date_read": "",
+    "date_read": "12/7",
     "goodreads_link": "https://www.goodreads.com/book/show/53799686-anxious-people",
     "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594234890l/53799686._SX318_.jpg"
   },
   {
-    "year": "Upcoming",
+    "year": "2022",
     "title": "Upgrade",
     "author": "Blake Crouch",
     "series": "",
-    "date_read": "",
+    "date_read": "12/21",
     "goodreads_link": "https://www.goodreads.com/book/show/59838811-upgrade",
     "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643994317l/59838811.jpg"
+  },
+  {
+    "year": "Currently Reading",
+    "title": "Moonflower Murders",
+    "author": "Anthony Horowitz",
+    "series": "Susan Ryeland #2",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/57007380-moonflower-murders",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1635246939i/57007380.jpg"
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Gods Themselves",
+    "author": "Isaac Asimov",
+    "series": "",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/41821.The_Gods_Themselves",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1351076141i/41821.jpg"
+  },
+  {
+    "year": "Upcoming",
+    "title": "A Little Hatred",
+    "author": "Joe Abercrombie",
+    "series": "The Age of Madness #1",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/35606041-a-little-hatred",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1558367199i/35606041.jpg"
+  },
+  {
+    "year": "Upcoming",
+    "title": "Verity",
+    "author": "Colleen Hoover",
+    "series": "",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/59344312-verity",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634158558i/59344312.jpg"
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Unlikely Escape of Uriah Heep",
+    "author": "H.G. Parry",
+    "series": "",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/42779072-the-unlikely-escape-of-uriah-heep",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556719286i/42779072.jpg"
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Maid",
+    "author": "Nita Prose",
+    "series": "",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/55196813-the-maid",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1643228739i/55196813.jpg"
+  },
+  {
+    "year": "Upcoming",
+    "title": "Hell Bent",
+    "author": "Leigh Bardugo",
+    "series": "Alex Stern #2",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/60652997-hell-bent",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1648744814i/60652997.jpg"
   }
 ]
