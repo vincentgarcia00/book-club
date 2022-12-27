@@ -78,7 +78,7 @@ const App = () => {
   return (
     <div className="App">
       <Layout.Header>
-        <Header />?
+        <Header />
       </Layout.Header>
 
       {books.length ? (
