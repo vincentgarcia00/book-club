@@ -14,6 +14,7 @@ const get = (url?: string) => {
 };
 
 const getFromCache = (url: string) => {
+  console.log("Load from cache", url);
   return fetch(`book-club/cache${url}`).then((response) => response.json());
 };
 
@@ -35,8 +36,9 @@ const getReaderStats = (useCache?: boolean) => {
 export const getBooks = (): Promise<IBook[]> => {
   return Promise.all([getBookList(), getBookStats(), getReaderStats()])
     .then(processResults)
-    .catch(() => {
-      Promise.all([
+    .catch((e) => {
+      console.error("Error from Sheet.Best", e);
+      return Promise.all([
         getBookList(true),
         getBookStats(true),
         getReaderStats(true),
