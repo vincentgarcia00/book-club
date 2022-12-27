@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm run deploy`
 
-To deploy to Github Pages. This will run the build first.
+To deploy to Github Pages. Runs build and pushes `gh-pages` branch.
 
 ### `yarn start`
 
@@ -29,12 +29,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 ## API
 
 The API is powered by a Google Sheet using [Sheet.Best](https://sheet.best/).
-
-## TODO
-
-- [ ] Stats page
-- [ ] Keep track of who read each book
-- [ ] Scrap book info from Goodreads
-- [ ] Auto build cache
-  - Weekly on Wednesdays
-  - Can it auto build when the google doc is updated?
