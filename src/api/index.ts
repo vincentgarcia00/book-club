@@ -15,7 +15,7 @@ const get = (url?: string) => {
 
 const getFromCache = (url: string) => {
   console.log("Load from cache", url);
-  return fetch(`book-club/cache${url}`).then((response) => response.json());
+  return fetch(`cache${url}`).then((response) => response.json());
 };
 
 const getBookList = (useCache?: boolean) => {
