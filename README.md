@@ -4,6 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `./scripts/doTheThing.sh`
+
+1. Builds the cache
+2. Checks it into git
+3. Deploys GitHub pages
+
+### `npm run build:cache`
+
+To rebuild the files in `/public/cache`
+Runs `scripts/buildCache.js`
+
 ### `npm run deploy`
 
 To deploy to Github Pages. Runs build and pushes `gh-pages` branch.

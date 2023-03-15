@@ -20,10 +20,26 @@ const fetchData = (url, file) => {
 };
 
 const callback = (err) => {
-  if (err) return console.error(err);
+  if (err) {
+    console.error(err);
+    process.exit(1);
+    return;
+  }
   console.log("Success");
 };
 
 fetchData("", "books.json");
 fetchData("/tabs/Book%20Stats", "stats.json");
 fetchData("/tabs/Reader%20Stats", "readerStats.json");
+
+fs.writeFile(
+  `public/cache/config.json`,
+  JSON.stringify(
+    {
+      last_updated: new Date().toISOString(),
+    },
+    null,
+    2
+  ),
+  callback
+);

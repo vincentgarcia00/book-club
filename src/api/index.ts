@@ -3,6 +3,7 @@ import IBook, { ISheetBestBook } from "../types/IBook";
 const sheetBestUrl =
   "https://sheet.best/api/sheets/aa1f111c-28d5-4803-bf7f-64a3f2295352";
 const isDevEnv = process.env.NODE_ENV === "development";
+const useCache = !isDevEnv;
 
 const get = (url?: string) => {
   return fetch(`${sheetBestUrl}${url ?? ""}`).then((response) => {
@@ -18,32 +19,29 @@ const getFromCache = (url: string) => {
   return fetch(`cache${url}`).then((response) => response.json());
 };
 
-const getBookList = (useCache?: boolean) => {
-  if (isDevEnv || useCache) return getFromCache("/books.json");
+const getBookList = () => {
+  if (useCache) return getFromCache("/books.json");
   return get();
 };
 
-const getBookStats = (useCache?: boolean) => {
-  if (isDevEnv || useCache) return getFromCache("/stats.json");
+const getBookStats = () => {
+  if (useCache) return getFromCache("/stats.json");
   return get("/tabs/Book%20Stats");
 };
 
-const getReaderStats = (useCache?: boolean) => {
-  if (isDevEnv || useCache) return getFromCache("/readerStats.json");
+const getReaderStats = () => {
+  if (useCache) return getFromCache("/readerStats.json");
   return get("/tabs/Reader%20Stats");
 };
 
+export const getCacheConfig = () => {
+  return getFromCache("/config.json");
+};
+
 export const getBooks = (): Promise<IBook[]> => {
-  return Promise.all([getBookList(), getBookStats(), getReaderStats()])
-    .then(processResults)
-    .catch((e) => {
-      console.error("Error from Sheet.Best", e);
-      return Promise.all([
-        getBookList(true),
-        getBookStats(true),
-        getReaderStats(true),
-      ]).then(processResults);
-    });
+  return Promise.all([getBookList(), getBookStats(), getReaderStats()]).then(
+    processResults
+  );
 };
 
 const processResults = (results: any) => {

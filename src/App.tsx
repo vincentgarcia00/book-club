@@ -9,7 +9,7 @@ import { Row, Col, Divider, Button, Layout, Tag, Spin } from "antd";
 import { DoubleRightOutlined, PushpinOutlined } from "@ant-design/icons";
 import FavoriteIcon from "./components/FavoriteIcon";
 import DislikeIcon from "./components/DislikeIcon";
-import IBook from "./types/IBook";
+import IBook, { ICacheConfig } from "./types/IBook";
 import Header from "./components/Header";
 
 interface IGenreList {
@@ -18,6 +18,7 @@ interface IGenreList {
 
 const App = () => {
   const [books, setBooks] = useState<IBook[]>([]);
+  const [cacheConfig, setCacheConfig] = useState<ICacheConfig>();
   const [filteredBooks, setFilteredBooks] = useState<IBook[]>([]);
   const [showFavorites, setShowFavorites] = useState<boolean>(false);
   const [showDisliked, setShowDisliked] = useState<boolean>(false);
@@ -31,6 +32,10 @@ const App = () => {
         setFilteredBooks(books);
       })
       .catch(setError);
+  }, []);
+
+  useEffect(() => {
+    api.getCacheConfig().then(setCacheConfig).catch(setError);
   }, []);
 
   const toggleFavorites = () => {
@@ -193,6 +198,8 @@ const App = () => {
         Made by Maria Knabe 2022
         <br />
         Using Ant Design and Sheet Best
+        <br />
+        Cache last updated on {cacheConfig?.last_updated}
       </Layout.Footer>
     </div>
   );
