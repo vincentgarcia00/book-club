@@ -5,10 +5,15 @@ export interface ISheetBestBook {
   series: string;
   best_of: boolean;
   worst_of: boolean;
-  year_published: string;
   goodreads_link: string;
   image: string;
+  picked_by?: string;
+}
+
+export interface ISheetBestBookStat {
   genre?: string;
+  year_published: string;
+  pages?: string;
 }
 
 export default interface IBook {
@@ -24,7 +29,8 @@ export default interface IBook {
   goodreads_link: string;
   image: string;
   genres: string[];
-  recommended_by?: string;
+  picked_by?: string;
+  pages?: number;
 }
 
 export interface ICacheConfig {

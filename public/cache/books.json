@@ -4,1151 +4,1535 @@
     "title": "The Martian",
     "author": "Andy Weir",
     "series": "",
+    "picked_by": "",
     "date_read": "Jun 29",
     "goodreads_link": "https://www.goodreads.com/book/show/18007564-the-martian",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413706054l/18007564.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413706054l/18007564.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2015",
     "title": "Altered Carbon",
     "author": "Richard Morgan",
     "series": "Takeshi Kovacs #1",
+    "picked_by": "",
     "date_read": "Aug 3",
     "goodreads_link": "https://www.goodreads.com/book/show/40792913-altered-carbon",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531415180l/40792913._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531415180l/40792913._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2015",
     "title": "Ready Player One",
     "author": "Ernest Cline",
     "series": "",
+    "picked_by": "",
     "date_read": "Aug 31",
     "goodreads_link": "https://www.goodreads.com/book/show/9969571-ready-player-one",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500930947l/9969571._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500930947l/9969571._SY475_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2015",
     "title": "World War Z",
     "author": "Max Brooks",
     "series": "",
-    "date_read": "Sept 14",
+    "picked_by": "",
+    "date_read": "Sep 14",
     "goodreads_link": "https://www.goodreads.com/book/show/8908.World_War_Z",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528312647l/8908._SX318_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528312647l/8908._SX318_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2015",
     "title": "Daemon",
     "author": "Daniel Suarez",
     "series": "Daemon #1",
+    "picked_by": "",
     "date_read": "Oct 12",
     "goodreads_link": "https://www.goodreads.com/book/show/6665847-daemon",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348912643l/6665847.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348912643l/6665847.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2015",
     "title": "The Road",
     "author": "Cormac McCarthy",
     "series": "",
+    "picked_by": "",
     "date_read": "Nov 30",
     "goodreads_link": "https://www.goodreads.com/book/show/6288.The_Road",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439197219l/6288._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439197219l/6288._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2015",
     "title": "And Then There Were None",
     "author": "Agatha Christie",
     "series": "",
+    "picked_by": "",
     "date_read": "Dec 14",
     "goodreads_link": "https://www.goodreads.com/book/show/16299.And_Then_There_Were_None",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391120695l/16299.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391120695l/16299.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "Johannes Cabal: The Necromancer",
     "author": "Jonathan L Howard",
     "series": "Johannes Cabal #1",
+    "picked_by": "Jose",
     "date_read": "Jan 4",
     "goodreads_link": "https://www.goodreads.com/book/show/5750628-johannes-cabal-the-necromancer",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442673488l/5750628._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442673488l/5750628._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "Six of Crows",
     "author": "Leigh Bardugo",
     "series": "Six of Crows #1",
+    "picked_by": "Maria",
     "date_read": "Feb 1",
     "goodreads_link": "https://www.goodreads.com/book/show/23437156-six-of-crows",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459349344l/23437156.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459349344l/23437156.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "The Enchanted",
     "author": "Rene Denfeld",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Feb 15",
     "goodreads_link": "https://www.goodreads.com/book/show/18090147-the-enchanted",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373991244l/18090147.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373991244l/18090147.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "Cthulhu Mythos",
     "author": "HP Lovecraft",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Mar 7",
     "goodreads_link": "https://www.goodreads.com/author/show/9494.H_P_Lovecraft",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327886768l/11851522.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327886768l/11851522.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "The Kind Worth Killing",
     "author": "Peter Swanson",
     "series": "",
+    "picked_by": "Vincent",
     "date_read": "Mar 28",
     "goodreads_link": "https://www.goodreads.com/book/show/21936809-the-kind-worth-killing",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417981750l/21936809.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417981750l/21936809.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "The Gunslinger",
     "author": "Steven King",
     "series": "The Dark Tower #1",
+    "picked_by": "Barbara",
     "date_read": "May 3",
     "goodreads_link": "https://www.goodreads.com/book/show/43615.The_Gunslinger",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554220416l/43615.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554220416l/43615.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "Good Omens",
     "author": "Neil Gaiman",
     "series": "",
+    "picked_by": "Chris Gaskill?",
     "date_read": "May 17",
     "goodreads_link": "https://www.goodreads.com/book/show/12067.Good_Omens",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392528568l/12067.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392528568l/12067.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "The 5th Wave",
     "author": "Rick Yancey",
     "series": "The 5th Wave #1",
+    "picked_by": "Barbara",
     "date_read": "May 31",
     "goodreads_link": "https://www.goodreads.com/book/show/16101128-the-5th-wave",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1359853842l/16101128.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1359853842l/16101128.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "The Great Zoo of China",
     "author": "Matthew Reilly",
     "series": "",
+    "picked_by": "Chris Gaskill",
     "date_read": "Jul 11",
     "goodreads_link": "https://www.goodreads.com/book/show/21535767-the-great-zoo-of-china",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403845058l/21535767.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403845058l/21535767.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2016",
     "title": "Mr. Mercedes",
     "author": "Steven King",
     "series": "Bill Hodges Trilogy #1",
+    "picked_by": "Barbara",
     "date_read": "Aug 8",
     "goodreads_link": "https://www.goodreads.com/book/show/18775247-mr-mercedes",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468705326l/18775247._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468705326l/18775247._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "The Everything Box",
     "author": "Richard Kadrey",
     "series": "Another Coop Heist #1",
+    "picked_by": "Vincent",
     "date_read": "Aug 22",
     "goodreads_link": "https://www.goodreads.com/book/show/25817389-the-everything-box",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444588418l/25817389._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444588418l/25817389._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "11.22.63",
     "author": "Steven King",
     "series": "",
+    "picked_by": "Group",
     "date_read": "Oct 10",
     "goodreads_link": "https://www.goodreads.com/book/show/15739070-11-22-63",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327876792l/10644930.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327876792l/10644930.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2016",
     "title": "Oryx and Crake",
     "author": "Margaret Atwood",
     "series": "MaddAddam #1",
+    "picked_by": "Maria via Alyse",
     "date_read": "Nov 14",
     "goodreads_link": "https://www.goodreads.com/book/show/46756.Oryx_and_Crake",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494109986l/46756.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494109986l/46756.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2016",
     "title": "Dark Matter",
     "author": "Blake Crouch",
     "series": "",
+    "picked_by": "?Alyse?",
     "date_read": "Dec 12",
     "goodreads_link": "https://www.goodreads.com/book/show/27833670-dark-matter",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY475_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "Vicious",
     "author": "V E Schwab",
     "series": "Villians #1",
+    "picked_by": "Maria",
     "date_read": "Jan 15",
     "goodreads_link": "https://www.goodreads.com/book/show/40874032-vicious",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527839682l/13638125._SX318_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527839682l/13638125._SX318_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "A Man Called Ove",
     "author": "Fredrik Backman",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Feb 12",
     "goodreads_link": "https://www.goodreads.com/book/show/18774964-a-man-called-ove",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405259930l/18774964.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405259930l/18774964.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "Murder on the Orient Express",
     "author": "Agatha Christie",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Feb 27",
     "goodreads_link": "https://www.goodreads.com/book/show/853510.Murder_on_the_Orient_Express",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486131451l/853510._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486131451l/853510._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "She's Not There",
     "author": "Joy Fielding",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Mar 21",
     "goodreads_link": "https://www.goodreads.com/book/show/25739190-she-s-not-there",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439828659l/25739190.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439828659l/25739190.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "Trigger Warning",
     "author": "Neil Gaiman",
     "series": "",
+    "picked_by": "Chris Gaskill",
     "date_read": "Apr 18",
     "goodreads_link": "https://www.goodreads.com/book/show/22522808-trigger-warning",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415036119l/22522808.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415036119l/22522808.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2017",
     "title": "The Fireman",
     "author": "Joe Hill",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "May 30",
     "goodreads_link": "https://www.goodreads.com/book/show/29875363-the-fireman",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478683499l/29875363.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478683499l/29875363.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "Snow Crash",
     "author": "Neal Stephenson",
     "series": "",
+    "picked_by": "Alyse/Maria",
     "date_read": "Jun 26",
     "goodreads_link": "https://www.goodreads.com/book/show/40651883-snow-crash",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530057753l/40651883.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530057753l/40651883.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2017",
     "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
     "series": "",
+    "picked_by": "Autumn",
     "date_read": "Jul 24",
     "goodreads_link": "https://www.goodreads.com/book/show/38447.The_Handmaid_s_Tale",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578028274l/38447._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578028274l/38447._SY475_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "Since We Fell",
     "author": "Dennis Lehane",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Aug 21",
     "goodreads_link": "https://www.goodreads.com/book/show/31751571-since-we-fell",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480434090l/31751571._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480434090l/31751571._SY475_.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2017",
     "title": "The Last Wish",
     "author": "Andrzej Sapkowski",
     "series": "The Witcher #0.5",
-    "date_read": "Sept 18",
+    "picked_by": "Vincent",
+    "date_read": "Sep 18",
     "goodreads_link": "https://www.goodreads.com/book/show/40603587-the-last-wish",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529591917l/40603587._SX318_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529591917l/40603587._SX318_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "Dark Places",
     "author": "Gillian Flynn",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Oct 16",
     "goodreads_link": "https://www.goodreads.com/book/show/5886881-dark-places",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354988288l/5886881.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354988288l/5886881.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "This Savage Song",
     "author": "V E Schwab",
     "series": "Monsters of Verity #1",
+    "picked_by": "Brian",
     "date_read": "Nov 13",
     "goodreads_link": "https://www.goodreads.com/book/show/40642172-this-savage-song",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529942103l/40642172._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529942103l/40642172._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "Magpie Murders",
     "author": "Anthony Horowitz",
     "series": "",
+    "picked_by": "Joey",
     "date_read": "Dec 11",
     "goodreads_link": "https://www.goodreads.com/book/show/32075854-magpie-murders",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504599398l/32075854._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504599398l/32075854._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2017",
     "title": "Artemis",
     "author": "Andy Weir",
     "series": "",
+    "picked_by": "Group",
     "date_read": "Jan 2",
     "goodreads_link": "https://www.goodreads.com/book/show/34928122-artemis",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494273579l/34928122.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494273579l/34928122.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "Sleeping Giants",
     "author": "Sylvain Neuvel",
     "series": "Themis Files #1",
+    "picked_by": "Barbara?/Joey?",
     "date_read": "Jan 30",
     "goodreads_link": "https://www.goodreads.com/book/show/25733990-sleeping-giants",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459785141l/25733990.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459785141l/25733990.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "Celebrated Cases of Judge Dee",
     "author": "Unknown/Van Gulik",
     "series": "",
+    "picked_by": "Joey",
     "date_read": "Feb 12",
     "goodreads_link": "https://www.goodreads.com/book/show/419389.Celebrated_Cases_of_Judge_Dee",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489268532l/419389._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489268532l/419389._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "Room",
     "author": "Emma Donoghue",
     "series": "",
+    "picked_by": "Brian/Barbara/Group",
     "date_read": "Mar 12",
     "goodreads_link": "https://www.goodreads.com/book/show/31685789-room",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472239721l/31685789._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472239721l/31685789._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "A Brief History of Seven Killings",
     "author": "Marlon James",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Apr 24",
     "goodreads_link": "https://www.goodreads.com/book/show/20893314-a-brief-history-of-seven-killings",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399045083l/20893314.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399045083l/20893314.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "Scythe",
     "author": "Neal Schusterman",
     "series": "Arc of a Scythe #1",
+    "picked_by": "Maria",
     "date_read": "May 22",
     "goodreads_link": "https://www.goodreads.com/book/show/28954189-scythe",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456172676l/28954189.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456172676l/28954189.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "One Hundred Years of Solitude",
     "author": "Gabriel Garcia Marquez",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Jul 2",
     "goodreads_link": "https://www.goodreads.com/book/show/320.One_Hundred_Years_of_Solitude",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327881361l/320.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327881361l/320.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2018",
     "title": "We Were Liars",
     "author": "E Howard",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Jun 4",
     "goodreads_link": "https://www.goodreads.com/book/show/16143347-we-were-liars",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402749479l/16143347.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402749479l/16143347.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "The Gone World",
     "author": "Tom Sweterlitsch",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Jul 30",
     "goodreads_link": "https://www.goodreads.com/book/show/33413556-the-gone-world",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500302928l/33413556.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500302928l/33413556.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "Turtles All The Way Down",
     "author": "John Green",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Aug 14",
     "goodreads_link": "https://www.goodreads.com/book/show/35504431-turtles-all-the-way-down",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503002776l/35504431._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503002776l/35504431._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "The Long Walk",
     "author": "Steven King",
     "series": "",
-    "date_read": "Sept 11",
+    "picked_by": "Barbara",
+    "date_read": "Sep 11",
     "goodreads_link": "https://www.goodreads.com/book/show/9014.The_Long_Walk",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309212400l/9014.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309212400l/9014.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "Dune",
     "author": "Frank Herbert",
     "series": "Dune #1",
+    "picked_by": "Maria?",
     "date_read": "Oct 23",
     "goodreads_link": "https://www.goodreads.com/book/show/44767458-dune",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2018",
     "title": "Strange Weather",
     "author": "Joe Hill",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Nov 20",
     "goodreads_link": "https://www.goodreads.com/book/show/34066621-strange-weather",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493845147l/34066621.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493845147l/34066621.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2018",
     "title": "Vengeful",
     "author": "V E Schwab",
     "series": "Villians #2",
+    "picked_by": "Group",
     "date_read": "Dec 18",
     "goodreads_link": "https://www.goodreads.com/book/show/26856502-vengeful",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519916942l/26856502._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519916942l/26856502._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "The Butterfly Garden",
     "author": "Dot Hutchison",
     "series": "The Collector #1",
+    "picked_by": "Brian",
     "date_read": "Jan 15",
     "goodreads_link": "https://www.goodreads.com/book/show/29981261-the-butterfly-garden",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461392121l/29981261._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461392121l/29981261._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "Children of Blood and Bone",
     "author": "Tomi Adeyemi",
     "series": "Legacy of Orïsha #1",
+    "picked_by": "Maria",
     "date_read": "Feb 11",
     "goodreads_link": "https://www.goodreads.com/book/show/34728667-children-of-blood-and-bone",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516127989l/34728667.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516127989l/34728667.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2019",
     "title": "My Life as a White Trash Zombie",
     "author": "Diana Rowland",
     "series": "White Trash Zombie #1",
+    "picked_by": "Brian",
     "date_read": "Feb 26",
     "goodreads_link": "https://www.goodreads.com/book/show/9640626-my-life-as-a-white-trash-zombie",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326145463l/9640626.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326145463l/9640626.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "The Silent Patient",
     "author": "Alex Michaelides",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Mar 11",
     "goodreads_link": "https://www.goodreads.com/book/show/40097951-the-silent-patient",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573745054l/40097951._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573745054l/40097951._SY475_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "Poppy War",
     "author": "R F Kuang",
     "series": "The Poppy War #1",
+    "picked_by": "Joey",
     "date_read": "Apr 11",
     "goodreads_link": "https://www.goodreads.com/book/show/35068705-the-poppy-war",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515691735l/35068705.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515691735l/35068705.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "Sadie",
     "author": "Courtney Summers",
     "series": "",
+    "picked_by": "Alyse",
     "date_read": "Apr 23",
     "goodreads_link": "https://www.goodreads.com/book/show/34810320-sadie",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556559178l/34810320._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556559178l/34810320._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "Pet Sematary",
     "author": "Steven King",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "May 21",
     "goodreads_link": "https://www.goodreads.com/book/show/33124137-pet-sematary",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480069533l/33124137._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480069533l/33124137._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "On the Come Up",
     "author": "Angie Thomas",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "June 17",
     "goodreads_link": "https://www.goodreads.com/book/show/35887567-on-the-come-up",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518828924l/35887567._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518828924l/35887567._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "Year One",
     "author": "Nora Roberts",
     "series": "Chronicles of The One #1",
+    "picked_by": "Maria/Joey",
     "date_read": "Jul 16",
     "goodreads_link": "https://www.goodreads.com/book/show/34311452-year-one",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488360073l/34311452.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488360073l/34311452.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "Life After Life",
     "author": "Kate Atkinson",
     "series": "Todd Family #1",
+    "picked_by": "Barbara",
     "date_read": "Aug 13",
     "goodreads_link": "https://www.goodreads.com/book/show/15790842-life-after-life",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358173808l/15790842.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358173808l/15790842.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2019",
     "title": "Kings of the Wyld",
     "author": "Nicholas Eames",
     "series": "The Band #1",
-    "date_read": "Sept 9",
+    "picked_by": "Joey",
+    "date_read": "Sep 9",
     "goodreads_link": "https://www.goodreads.com/book/show/30841984-kings-of-the-wyld",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477027207l/30841984.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477027207l/30841984.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "Recursion",
     "author": "Blake Crouch",
     "series": "",
+    "picked_by": "Alyse/group",
     "date_read": "Oct 8",
     "goodreads_link": "https://www.goodreads.com/book/show/42046112-recursion",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543687940l/42046112.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543687940l/42046112.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "All the Wrong Places",
     "author": "Joy Fielding",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Oct 22",
     "goodreads_link": "https://www.goodreads.com/book/show/40712004-all-the-wrong-places",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532458006l/40712004.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532458006l/40712004.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2019",
     "title": "Ninth House",
     "author": "Leigh Bardugo",
     "series": "Alex Stern #1",
+    "picked_by": "Group",
     "date_read": "Nov 19",
     "goodreads_link": "https://www.goodreads.com/book/show/43263680-ninth-house",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553102141l/43263680.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553102141l/43263680.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2019",
     "title": "The Toll",
     "author": "Neal Shusterman",
     "series": "Arc of a Scythe #3",
+    "picked_by": "Group",
     "date_read": "Dec 9",
     "goodreads_link": "https://www.goodreads.com/book/show/43822024-the-toll",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558117336l/43822024.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558117336l/43822024.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "NOS4A2",
     "author": "Joe Hill",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Jan 13",
     "goodreads_link": "https://www.goodreads.com/book/show/15729539-nos4a2",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1369591617l/15729539.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1369591617l/15729539.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "The Raven Tower",
     "author": "Ann Leckie",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Feb 10",
     "goodreads_link": "https://www.goodreads.com/book/show/39395857-the-raven-tower",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523646507l/39395857._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523646507l/39395857._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "The Whisper Man",
     "author": "Alex North",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Mar 9",
     "goodreads_link": "https://www.goodreads.com/book/show/41940236-the-whisper-man",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541864083l/41940236.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541864083l/41940236.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "The Starless Sea",
     "author": "Erin Morgenstern",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Apr 6",
     "goodreads_link": "https://www.goodreads.com/book/show/43575115-the-starless-sea",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554996038l/43575115._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554996038l/43575115._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "Carry On",
     "author": "Rainbow Rowell",
     "series": "Simon Snow #1",
+    "picked_by": "Maria",
     "date_read": "May 4",
     "goodreads_link": "https://www.goodreads.com/book/show/32768522-carry-on",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481729252l/32768522.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481729252l/32768522.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "The Moon is a Harsh Mistress",
     "author": "Robert A. Heinlein",
     "series": "",
+    "picked_by": "Alyse",
     "date_read": "June 2",
     "goodreads_link": "https://www.goodreads.com/book/show/16690.The_Moon_is_a_Harsh_Mistress",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348768309l/16690.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348768309l/16690.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "This Is How You Lose the Time War",
     "author": "Amal El-Mohtar and Max Gladstone",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "June 16",
     "goodreads_link": "https://www.goodreads.com/book/show/43352954-this-is-how-you-lose-the-time-war",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545755487l/43352954._SX318_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545755487l/43352954._SX318_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "The Guest List",
     "author": "Lucy Foley",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Jul 13",
     "goodreads_link": "https://www.goodreads.com/book/show/51933429-the-guest-list",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588289692l/52656911.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588289692l/52656911.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "Her Body and Other Parties",
     "author": "Carmen Maria Machado",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Jul 28",
     "goodreads_link": "https://www.goodreads.com/book/show/33375622-her-body-and-other-parties",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485266434l/33375622.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485266434l/33375622.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2020",
     "title": "All Our Wrong Todays",
     "author": "Elan Mastai",
     "series": "",
+    "picked_by": "James",
     "date_read": "Aug 11",
     "goodreads_link": "https://www.goodreads.com/book/show/27405006-all-our-wrong-todays",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465316482l/27405006._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465316482l/27405006._SY475_.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2020",
     "title": "Skyward",
     "author": "Brandon Sanderson",
     "series": "Skyward #1",
+    "picked_by": "Joey",
     "date_read": "Sep 8",
     "goodreads_link": "https://www.goodreads.com/book/show/36642458-skyward",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531845177l/36642458._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531845177l/36642458._SY475_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "The Immortalists",
     "author": "Chloe Benjamin",
     "series": "",
+    "picked_by": "Alyse",
     "date_read": "Sep 21",
     "goodreads_link": "https://www.goodreads.com/book/show/30288282-the-immortalists",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493015963l/30288282.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493015963l/30288282.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2020",
     "title": "1984",
     "author": "George Orwell",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Oct 20",
     "goodreads_link": "https://www.goodreads.com/book/show/40961427-1984",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532714506l/40961427._SX318_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532714506l/40961427._SX318_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "Steel Crow Saga",
     "author": "Paul Krueger",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Dec 1",
     "goodreads_link": "https://www.goodreads.com/book/show/43264755-steel-crow-saga",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553259306l/43264755._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553259306l/43264755._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2020",
     "title": "The Invisible Life of Addie LaRue",
     "author": "V E Schwab",
     "series": "",
+    "picked_by": "Group",
     "date_read": "Dec 29",
     "goodreads_link": "https://www.goodreads.com/book/show/50623864-the-invisible-life-of-addie-larue",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1584633432l/50623864.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1584633432l/50623864.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "The Three-Body Problem",
     "author": "Liu Cixin",
     "series": "Remembrance of Earth's Past #1",
+    "picked_by": "Barbara",
     "date_read": "Jan 26",
     "goodreads_link": "https://www.goodreads.com/book/show/20518872-the-three-body-problem",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415428227l/20518872.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415428227l/20518872.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "Hench",
     "author": "Natalie Zina Walschots",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Feb 16",
     "goodreads_link": "https://www.goodreads.com/book/show/49867430-hench?ac=1&from_search=true&qid=rxkKhAs0NU&rank=1",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594616305l/49867430.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594616305l/49867430.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "The Sword of Kaigen",
     "author": "ML Wang",
     "series": "",
+    "picked_by": "Joey",
     "date_read": "Mar 16",
     "goodreads_link": "https://www.goodreads.com/book/show/41886271-the-sword-of-kaigen?ac=1&from_search=true&qid=m5FrjZVJcL&rank=1#",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546137241l/41886271.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546137241l/41886271.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "Lovecraft Country",
     "author": "Matt Ruff",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Apr 13",
     "goodreads_link": "https://www.goodreads.com/author/show/40577.Matt_Ruff",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426040983l/25109947.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426040983l/25109947.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "The Midnight Library ",
     "author": "Matt Haig",
     "series": "",
+    "picked_by": "Farrah",
     "date_read": "Apr 27",
     "goodreads_link": "https://www.goodreads.com/book/show/52578297-the-midnight-library",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602190253l/52578297.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602190253l/52578297.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2021",
     "title": "What's Left of Me Is Yours",
     "author": "Stephanie Scott",
     "series": "",
+    "picked_by": "Alyse",
     "date_read": "May 11",
     "goodreads_link": "https://www.goodreads.com/book/show/50090359-what-s-left-of-me-is-yours?ac=1&from_search=true&qid=KALGJFtD4R&rank=1",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590594859l/50090359._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590594859l/50090359._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "To Sleep in a Sea of Stars",
     "author": "Christopher Paolini ",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Jun 22",
     "goodreads_link": "https://www.goodreads.com/book/show/48829708-to-sleep-in-a-sea-of-stars",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1583523112l/48829708.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1583523112l/48829708.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "The Bell Jar",
     "author": "Sylvia Plath",
     "series": "",
+    "picked_by": "Alyse/Maria",
     "date_read": "Jul 6",
     "goodreads_link": "https://www.goodreads.com/book/show/6514.The_Bell_Jar",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554582218l/6514._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554582218l/6514._SY475_.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2021",
     "title": "Howl's Moving Castle",
     "author": "Diana Wynne Jones",
     "series": "Howl's Moving Castle #1",
+    "picked_by": "Maria",
     "date_read": "Jul 20",
     "goodreads_link": "https://www.goodreads.com/book/show/6294.Howl_s_Moving_Castle?ac=1&from_search=true&qid=yCPWdMWah7&rank=1",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407450489l/6294.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407450489l/6294.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "The Life We Bury",
     "author": "Allen Eskens",
     "series": "",
+    "picked_by": "Alyse/Brian",
     "date_read": "Aug 3",
     "goodreads_link": "https://www.goodreads.com/book/show/20758175-the-life-we-bury",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437077793l/20758175._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437077793l/20758175._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "Project Hail Mary",
     "author": "Andy Weir",
     "series": "",
+    "picked_by": "Group",
     "date_read": "Aug 31",
     "goodreads_link": "https://www.goodreads.com/book/show/54493401-project-hail-mary",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597695864l/54493401.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597695864l/54493401.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "You",
     "author": "Caroline Kepnes",
     "series": "You #1",
+    "picked_by": "Brian",
     "date_read": "Sep 21",
     "goodreads_link": "https://www.goodreads.com/book/show/36430011-you",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549463282l/36430011._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549463282l/36430011._SY475_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "A Wizard of Earthsea",
     "author": "Ursula K. Le Guin",
     "series": "Earthsea Cycle #1",
+    "picked_by": "Maria",
     "date_read": "Oct 5",
     "goodreads_link": "https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "Wool (Wool #1-5)",
     "author": "Hugh Howey",
     "series": "Silo #1",
+    "picked_by": "Barbara",
     "date_read": "Nov 3",
     "goodreads_link": "https://www.goodreads.com/book/show/13453029-wool-omnibus",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388173481l/18626815.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388173481l/18626815.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2021",
     "title": "Slaughterhouse Five",
     "author": "Kurt Vonnegut",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Nov 17",
     "goodreads_link": "https://www.goodreads.com/book/show/4981",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606208827l/4981._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606208827l/4981._SY475_.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2021",
     "title": "A Deadly Education",
     "author": "Naomi Novik",
     "series": "The Scholomance #1",
+    "picked_by": "Joey",
     "date_read": "Dec 15",
     "goodreads_link": "https://www.goodreads.com/book/show/50548197",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596909044l/50548197._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596909044l/50548197._SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "Lolita",
     "author": "Vladimir Nabokov",
     "series": "",
+    "picked_by": "Alyse",
     "date_read": "Jan 5",
     "goodreads_link": "https://www.goodreads.com/book/show/7604",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377756377l/7604.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377756377l/7604.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2022",
     "title": "Bath Haus",
     "author": "P.J. Vernon",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Feb 2",
     "goodreads_link": "https://www.goodreads.com/book/show/55654025-bath-haus",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613414457l/55654025.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613414457l/55654025.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "What Dreams May Come",
     "author": "Richard Matheson",
     "series": "",
+    "picked_by": "Alyse",
     "date_read": "Feb 16",
     "goodreads_link": "https://www.goodreads.com/book/show/33555.What_Dreams_May_Come",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924911l/33555.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924911l/33555.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2022",
     "title": "Gods Behaving Badly",
     "author": "Marie Phillips",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Mar 2",
     "goodreads_link": "https://www.goodreads.com/book/show/1159679.Gods_Behaving_Badly",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387738829l/1159679.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387738829l/1159679.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "Starship Troopers",
     "author": "Robert A. Heinlein",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Mar 16",
     "goodreads_link": "https://www.goodreads.com/book/show/17214.Starship_Troopers",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614054412l/17214.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614054412l/17214.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "The Bone Shard Daughter",
     "author": "Andrea Stewart ",
     "series": "The Drowning Empire #1",
+    "picked_by": "Joey",
     "date_read": "Apr 13",
     "goodreads_link": "https://www.goodreads.com/book/show/50706646-the-bone-shard-daughter",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586229099l/50706646.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586229099l/50706646.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "The Bone Shard Emperor",
     "author": "Andrea Stewart ",
     "series": "The Drowning Empire #2",
+    "picked_by": "Group",
     "date_read": "Apr 27",
     "goodreads_link": "https://www.goodreads.com/book/show/55965390-the-bone-shard-emperor",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624274776l/55965390._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624274776l/55965390._SY475_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "Flowers for Algernon",
     "author": "Daniel Keyes",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "May 11",
     "goodreads_link": "https://www.goodreads.com/book/show/36576608-flowers-for-algernon",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510416245l/36576608.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510416245l/36576608.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "Gallant",
     "author": "V E Schwab",
     "series": "",
+    "picked_by": "Maria/Alyse",
     "date_read": "Jun 1",
     "goodreads_link": "https://www.goodreads.com/book/show/58064046-gallant",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635862579l/58064046.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635862579l/58064046.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2022",
     "title": "The House in the Cerulean Sea",
     "author": "TJ Klune",
     "series": "",
+    "picked_by": "Joey",
     "date_read": "Jun 15",
     "goodreads_link": "https://www.goodreads.com/book/show/45047384-the-house-in-the-cerulean-sea",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569514209l/45047384._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569514209l/45047384._SY475_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "Arsenic and Adobo",
     "author": "Mia P. Manansala",
     "series": "Tita Rosie's Kitchen Mystery #1",
+    "picked_by": "Brian",
     "date_read": "Jun 29",
     "goodreads_link": "https://www.goodreads.com/book/show/54351235-arsenic-and-adobo",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601326656l/54351235.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601326656l/54351235.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "Book of Night",
     "author": "Holly Black",
     "series": "Book of Night #1",
+    "picked_by": "Alyse",
     "date_read": "Jul 13",
     "goodreads_link": "https://www.goodreads.com/book/show/58293924-book-of-night",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639163872l/58293924.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639163872l/58293924.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "The Dinner",
     "author": "Herman Koch",
     "series": "",
+    "picked_by": "Scott",
     "date_read": "Jul 27",
     "goodreads_link": "https://www.goodreads.com/book/show/40718205-the-dinner",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1530713598i/40718205.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1530713598i/40718205.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "The Humans",
     "author": "Matt Haig",
     "series": "",
+    "picked_by": "Alyse",
     "date_read": "Aug 10",
     "goodreads_link": "https://www.goodreads.com/book/show/16130537-the-humans",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353739654l/16130537.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353739654l/16130537.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "What Lies Between Us",
     "author": "John Marrs",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Sep 7",
     "goodreads_link": "https://www.goodreads.com/book/show/53142315-what-lies-between-us",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576829724l/53142315._SX318_SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576829724l/53142315._SX318_SY475_.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "All American Boys",
     "author": "Jason Reynolds",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "Sep 21",
     "goodreads_link": "https://www.goodreads.com/book/show/25657130-all-american-boys",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444506678l/25657130.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444506678l/25657130.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "Jade City",
     "author": "Fonda Lee",
     "series": "The Green Bone Saga #1",
+    "picked_by": "Maria",
     "date_read": "Oct 19",
     "goodreads_link": "https://www.goodreads.com/book/show/43587154-jade-city",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547625704l/43587154._SY475_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547625704l/43587154._SY475_.jpg",
+    "best_of": "TRUE",
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "Rebecca",
     "author": "Daphne du Maurier",
     "series": "",
+    "picked_by": "Joey",
     "date_read": "Nov 16",
     "goodreads_link": "https://www.goodreads.com/book/show/17899948-rebecca",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386605169l/17899948.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386605169l/17899948.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2022",
     "title": "Anxious People",
     "author": "Fredrik Backman",
     "series": "",
+    "picked_by": "Scott",
     "date_read": "Dec 7",
     "goodreads_link": "https://www.goodreads.com/book/show/53799686-anxious-people",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594234890l/53799686._SX318_.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1594234890l/53799686._SX318_.jpg",
+    "best_of": "",
+    "worst_of": "TRUE"
   },
   {
     "year": "2022",
     "title": "Upgrade",
     "author": "Blake Crouch",
     "series": "",
+    "picked_by": "Group",
     "date_read": "Dec 21",
     "goodreads_link": "https://www.goodreads.com/book/show/59838811-upgrade",
-    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643994317l/59838811.jpg"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643994317l/59838811.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2023",
     "title": "Moonflower Murders",
     "author": "Anthony Horowitz",
     "series": "Susan Ryeland #2",
+    "picked_by": "Barbara",
     "date_read": "Jan 18",
     "goodreads_link": "https://www.goodreads.com/book/show/57007380-moonflower-murders",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1635246939i/57007380.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1635246939i/57007380.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2023",
     "title": "The Gods Themselves",
     "author": "Isaac Asimov",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "Feb 1",
     "goodreads_link": "https://www.goodreads.com/book/show/41821.The_Gods_Themselves",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1351076141i/41821.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1351076141i/41821.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2023",
     "title": "A Little Hatred",
     "author": "Joe Abercrombie",
     "series": "The Age of Madness #1",
+    "picked_by": "Joey",
     "date_read": "Mar 1",
     "goodreads_link": "https://www.goodreads.com/book/show/35606041-a-little-hatred",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1558367199i/35606041.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1558367199i/35606041.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2023",
     "title": "Verity",
     "author": "Colleen Hoover",
     "series": "",
+    "picked_by": "Scott",
     "date_read": "Mar 15",
     "goodreads_link": "https://www.goodreads.com/book/show/59344312-verity",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634158558i/59344312.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634158558i/59344312.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2023",
     "title": "The Unlikely Escape of Uriah Heep",
     "author": "H.G. Parry",
     "series": "",
+    "picked_by": "Alyse",
     "date_read": "Apr 12",
     "goodreads_link": "https://www.goodreads.com/book/show/42779072-the-unlikely-escape-of-uriah-heep",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556719286i/42779072.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556719286i/42779072.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "2023",
     "title": "The Maid",
     "author": "Nita Prose",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "Apr 26",
     "goodreads_link": "https://www.goodreads.com/book/show/55196813-the-maid",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1643228739i/55196813.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1643228739i/55196813.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "Currently Reading",
     "title": "Hell Bent",
     "author": "Leigh Bardugo",
     "series": "Alex Stern #2",
+    "picked_by": "Group",
     "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/60652997-hell-bent",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1648744814i/60652997.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1648744814i/60652997.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "Upcoming",
     "title": "Challenger Deep",
     "author": "Neal Shusterman",
     "series": "",
+    "picked_by": "Maria",
     "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/18075234-challenger-deep",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1412791447i/18075234.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1412791447i/18075234.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "Upcoming",
     "title": "The Rage of Dragons",
     "author": "Evan Winter",
     "series": "The Burning #1",
+    "picked_by": "Scott",
     "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/41952489-the-rage-of-dragons",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553927196i/41952489.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553927196i/41952489.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "Upcoming",
     "title": "The 7½ Deaths of Evelyn Hardcastle",
     "author": "Stuart Turton",
     "series": "",
+    "picked_by": "Vincent",
     "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/36337550-the-7-deaths-of-evelyn-hardcastle",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1506896221i/36337550.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1506896221i/36337550.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "Upcoming",
     "title": "Their Eyes Were Watching God",
     "author": "Zora Neale Hurston",
     "series": "",
+    "picked_by": "Barbara",
     "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/37415.Their_Eyes_Were_Watching_God",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1368072803i/37415.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1368072803i/37415.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "Upcoming",
     "title": "Twenty Years Later",
     "author": "Charlie Donlea",
     "series": "",
+    "picked_by": "Brian",
     "date_read": "",
     "goodreads_link": "https://goodreads.com/book/show/57645345",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1632079606i/57645345.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1632079606i/57645345.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "Upcoming",
     "title": "The Ember Blade",
     "author": "Chris Wooding",
     "series": "The Darkwater Legacy #1",
+    "picked_by": "Joey",
     "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/34673711-the-ember-blade",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1490348335i/34673711.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1490348335i/34673711.jpg",
+    "best_of": null,
+    "worst_of": null
   },
   {
     "year": "Upcoming",
     "title": "Yellowface",
     "author": "RF Kuang",
     "series": "",
+    "picked_by": "Alyse",
     "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/59357120",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671466214i/59357120.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671466214i/59357120.jpg",
+    "best_of": null,
+    "worst_of": null
   }
 ]
