@@ -30,13 +30,8 @@ const Book = ({ book }: IProps) => {
             description={
               <>
                 {/*<div>{book.series}</div>*/}
-                <div>
-                  {book.author}{" "}
-                  {/* <span className="Book-year">({book.year_published})</span> */}
-                </div>
-                {!!book.recommended_by && (
-                  <div>Picked by {book.recommended_by}</div>
-                )}
+                <div>{book.author}</div>
+                {!!book.picked_by && <div>Picked by {book.picked_by}</div>}
               </>
             }
           />
