@@ -24,6 +24,7 @@ export default interface IBook {
   goodreads_link: string;
   image: string;
   genres: string[];
+  recommended_by?: string;
 }
 
 export interface ICacheConfig {

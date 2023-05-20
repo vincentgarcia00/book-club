@@ -61,6 +61,7 @@ const App = () => {
   };
 
   if (error) {
+    console.error(error);
     return <>There was an error</>;
   }
 
