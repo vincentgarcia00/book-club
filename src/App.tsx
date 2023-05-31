@@ -198,7 +198,7 @@ const App = () => {
       <Layout.Footer style={{ textAlign: "center" }}>
         Made by Maria Knabe 2022
         <br />
-        Using Ant Design and Sheet Best
+        Using Ant Design and SheetDB
         <br />
         Cache last updated on {cacheConfig?.last_updated}
       </Layout.Footer>

@@ -1,10 +1,17 @@
-fs = require("fs");
+const fs = require("fs");
+const dotenv = require("dotenv");
+dotenv.config({ path: ".env.local" });
+dotenv.config();
 
-const baseUrl =
-  "https://sheet.best/api/sheets/aa1f111c-28d5-4803-bf7f-64a3f2295352";
+const baseUrl = process.env.SHEETDB_URL + process.env.SHEETDB_API_ID;
+const apiKey = process.env.SHEETDB_API_KEY;
 
 const fetchData = (url, file) => {
-  fetch(`${baseUrl}${url ?? ""}`)
+  fetch(`${baseUrl}${url ?? ""}`, {
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+    },
+  })
     .then((response) => {
       if (response.ok) return response.json();
       throw new Error(response.status + " " + response.statusText);
@@ -29,8 +36,8 @@ const callback = (err) => {
 };
 
 fetchData("", "books.json");
-fetchData("/tabs/Book%20Stats", "stats.json");
-fetchData("/tabs/Reader%20Stats", "readerStats.json");
+fetchData("?sheet=Book%20Stats&cast_numbers=pages,year", "stats.json");
+// fetchData("?sheet=Reader%20Stats", "readerStats.json");
 
 fs.writeFile(
   `public/cache/config.json`,

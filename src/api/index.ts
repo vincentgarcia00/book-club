@@ -1,19 +1,7 @@
-import IBook, { ISheetBestBook, ISheetBestBookStat } from "../types/IBook";
+import IBook, { IApiBook, IApiBookStat } from "../types/IBook";
 
-const sheetBestUrl =
-  "https://sheet.best/api/sheets/aa1f111c-28d5-4803-bf7f-64a3f2295352";
 const isDevEnv = process.env.NODE_ENV === "development";
-const useCache = true;
 const cachePrefix = isDevEnv ? "book-club/cache" : "cache";
-
-const get = (url?: string) => {
-  return fetch(`${sheetBestUrl}${url ?? ""}`).then((response) => {
-    if (!response.ok) {
-      throw new Error(response.statusText);
-    }
-    return response.json();
-  });
-};
 
 const getFromCache = (url: string) => {
   console.log("Load from cache", url);
@@ -29,20 +17,11 @@ const getFromCache = (url: string) => {
   });
 };
 
-const getBookList = (): Promise<ISheetBestBook[]> => {
-  if (useCache) return getFromCache("books.json");
-  return get();
-};
+const getBookList = (): Promise<IApiBook[]> => getFromCache("books.json");
 
-const getBookStats = (): Promise<ISheetBestBookStat[]> => {
-  if (useCache) return getFromCache("stats.json");
-  return get("/tabs/Book%20Stats");
-};
+const getBookStats = (): Promise<IApiBookStat[]> => getFromCache("stats.json");
 
-const getReaderStats = () => {
-  if (useCache) return getFromCache("readerStats.json");
-  return get("/tabs/Reader%20Stats");
-};
+const getReaderStats = () => getFromCache("readerStats.json");
 
 export const getCacheConfig = () => {
   return getFromCache("/config.json");
@@ -52,14 +31,12 @@ export const getBooks = (): Promise<IBook[]> => {
   return Promise.all([getBookList(), getBookStats()]).then(processResults);
 };
 
-const processResults = (
-  results: [ISheetBestBook[], ISheetBestBookStat[]]
-): IBook[] => {
+const processResults = (results: [IApiBook[], IApiBookStat[]]): IBook[] => {
   const [books, stats] = results;
 
   return books
     .map(
-      (book: ISheetBestBook, idx: number) =>
+      (book: IApiBook, idx: number) =>
         ({
           ...book,
           isCurrentlyReading: book.year === "Currently Reading",
@@ -68,7 +45,6 @@ const processResults = (
 
           ...stats[idx],
           genres: stats[idx].genre?.split("|") ?? [],
-          pages: stats[idx].pages ? Number(stats[idx].pages) : undefined,
         } as IBook)
     )
     .reverse();

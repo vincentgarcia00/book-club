@@ -1,4 +1,4 @@
-export interface ISheetBestBook {
+export interface IApiBook {
   year: string;
   title: string;
   author: string;
@@ -10,10 +10,10 @@ export interface ISheetBestBook {
   picked_by?: string;
 }
 
-export interface ISheetBestBookStat {
+export interface IApiBookStat {
   genre?: string;
-  year_published: string;
-  pages?: string;
+  year_published: number;
+  pages?: number;
 }
 
 export default interface IBook {
@@ -25,7 +25,7 @@ export default interface IBook {
   series: string;
   best_of: boolean;
   worst_of: boolean;
-  year_published: string;
+  year_published: number;
   goodreads_link: string;
   image: string;
   genres: string[];
