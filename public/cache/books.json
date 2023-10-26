@@ -1512,19 +1512,19 @@
     "worst_of": ""
   },
   {
-    "year": "Currently Reading",
+    "year": "2023",
     "title": "The Ember Blade",
     "author": "Chris Wooding",
     "series": "The Darkwater Legacy #1",
     "picked_by": "Joey",
-    "date_read": "",
+    "date_read": "Oct 25",
     "goodreads_link": "https://www.goodreads.com/book/show/34673711-the-ember-blade",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1490348335i/34673711.jpg",
     "best_of": "",
     "worst_of": ""
   },
   {
-    "year": "Upcoming",
+    "year": "Currently Reading",
     "title": "Yellowface",
     "author": "RF Kuang",
     "series": "",
@@ -1532,6 +1532,90 @@
     "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/59357120",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671466214i/59357120.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "Hyperion",
+    "author": "Dan Simmons",
+    "series": "Hyperion Cantos #1",
+    "picked_by": "Vincent",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/77566.Hyperion",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405546838i/77566.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "Sabriel",
+    "author": "Garth Nix",
+    "series": "The Old Kingdom #1",
+    "picked_by": "Scott",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/518848.Sabriel",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1293655399i/518848.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "Lessons in Chemistry",
+    "author": "Bonnie Garmus",
+    "series": "",
+    "picked_by": "Maria",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/58065033-lessons-in-chemistry",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634748496i/58065033.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "Nightfall",
+    "author": "Isaac Asimov, Robert Silverberg",
+    "series": "",
+    "picked_by": "Alyse",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/99245.Nightfall",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1368557860i/99245.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Fragile Threads of Power",
+    "author": "V E Schwab",
+    "series": "Threads of Power #1",
+    "picked_by": "Brian",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/111673828-the-fragile-threads-of-power",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678296412i/111673828.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "In a Dark, Dark Wood",
+    "author": "Ruth Ware",
+    "series": "",
+    "picked_by": "Barbara",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/27834600-in-a-dark-dark-wood",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523543089i/27834600.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Grace of Kings",
+    "author": "Ken Liu",
+    "series": "The Dandelion Dynasty #1",
+    "picked_by": "Joey",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/18952341-the-grace-of-kings",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1403024981i/18952341.jpg",
     "best_of": "",
     "worst_of": ""
   }
