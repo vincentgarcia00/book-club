@@ -2032,10 +2032,10 @@
     "flag.bad_parental_relationship": "0"
   },
   {
-    "year": 0,
+    "year": 2023,
     "title": "Yellowface",
     "year_published": "2023",
-    "new": "",
+    "new": "1",
     "genre": "Fiction|Mystery",
     "pages": 350,
     "length.audio_minutes": "519",
@@ -2045,7 +2045,7 @@
     "author.nationality": "",
     "translated": "",
     "flag.sexual_assault": "",
-    "flag.bad_parental_relationship": ""
+    "flag.bad_parental_relationship": "1"
   },
   {
     "year": 0,
