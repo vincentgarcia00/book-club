@@ -2048,7 +2048,7 @@
     "flag.bad_parental_relationship": "1"
   },
   {
-    "year": 0,
+    "year": 2023,
     "title": "Hyperion",
     "year_published": "1989",
     "new": "",
@@ -2097,7 +2097,7 @@
   },
   {
     "year": 0,
-    "title": "Nightfall",
+    "title": "Childhood's End",
     "year_published": "1990",
     "new": "",
     "genre": "Science Fiction",
@@ -2115,7 +2115,7 @@
     "year": 0,
     "title": "The Fragile Threads of Power",
     "year_published": "2023",
-    "new": "",
+    "new": "1",
     "genre": "Fantasy",
     "pages": 648,
     "length.audio_minutes": "",
