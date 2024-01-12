@@ -1400,7 +1400,7 @@
     "date_read": "Mar 1",
     "goodreads_link": "https://www.goodreads.com/book/show/35606041-a-little-hatred",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1558367199i/35606041.jpg",
-    "best_of": "",
+    "best_of": "TRUE",
     "worst_of": ""
   },
   {
@@ -1413,7 +1413,7 @@
     "goodreads_link": "https://www.goodreads.com/book/show/59344312-verity",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634158558i/59344312.jpg",
     "best_of": "",
-    "worst_of": ""
+    "worst_of": "TRUE"
   },
   {
     "year": "2023",
@@ -1425,7 +1425,7 @@
     "goodreads_link": "https://www.goodreads.com/book/show/42779072-the-unlikely-escape-of-uriah-heep",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556719286i/42779072.jpg",
     "best_of": "",
-    "worst_of": ""
+    "worst_of": "TRUE"
   },
   {
     "year": "2023",
@@ -1437,7 +1437,7 @@
     "goodreads_link": "https://www.goodreads.com/book/show/55196813-the-maid",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1643228739i/55196813.jpg",
     "best_of": "",
-    "worst_of": ""
+    "worst_of": "TRUE"
   },
   {
     "year": "2023",
@@ -1460,7 +1460,7 @@
     "date_read": "Jun 7",
     "goodreads_link": "https://www.goodreads.com/book/show/18075234-challenger-deep",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1412791447i/18075234.jpg",
-    "best_of": "",
+    "best_of": "TRUE",
     "worst_of": ""
   },
   {
@@ -1544,7 +1544,7 @@
     "date_read": "Nov 30",
     "goodreads_link": "https://www.goodreads.com/book/show/77566.Hyperion",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405546838i/77566.jpg",
-    "best_of": "",
+    "best_of": "TRUE",
     "worst_of": ""
   },
   {
@@ -1560,19 +1560,19 @@
     "worst_of": ""
   },
   {
-    "year": "Currently Reading",
+    "year": "2024",
     "title": "Lessons in Chemistry",
     "author": "Bonnie Garmus",
     "series": "",
     "picked_by": "Maria",
-    "date_read": "",
+    "date_read": "Jan 10",
     "goodreads_link": "https://www.goodreads.com/book/show/58065033-lessons-in-chemistry",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634748496i/58065033.jpg",
     "best_of": "",
     "worst_of": ""
   },
   {
-    "year": "Upcoming",
+    "year": "Currently Reading",
     "title": "Childhood's End",
     "author": "Arthur C. Clarke",
     "series": "",
