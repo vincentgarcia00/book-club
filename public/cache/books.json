@@ -1520,7 +1520,7 @@
     "date_read": "Oct 25",
     "goodreads_link": "https://www.goodreads.com/book/show/34673711-the-ember-blade",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1490348335i/34673711.jpg",
-    "best_of": "",
+    "best_of": "TRUE",
     "worst_of": ""
   },
   {
@@ -1572,19 +1572,19 @@
     "worst_of": ""
   },
   {
-    "year": "Currently Reading",
+    "year": "2024",
     "title": "Childhood's End",
     "author": "Arthur C. Clarke",
     "series": "",
     "picked_by": "Alyse",
-    "date_read": "",
+    "date_read": "Jan 24",
     "goodreads_link": "https://www.goodreads.com/book/show/414999.Childhood_s_End",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320552628i/414999.jpg",
     "best_of": "",
     "worst_of": ""
   },
   {
-    "year": "Upcoming",
+    "year": "Currently Reading",
     "title": "The Fragile Threads of Power",
     "author": "V E Schwab",
     "series": "Threads of Power #1",
