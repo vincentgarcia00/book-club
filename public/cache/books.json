@@ -1596,19 +1596,19 @@
     "worst_of": ""
   },
   {
-    "year": "Currently Reading",
+    "year": "2024",
     "title": "In a Dark, Dark Wood",
     "author": "Ruth Ware",
     "series": "",
     "picked_by": "Barbara",
-    "date_read": "",
+    "date_read": "Mar 6",
     "goodreads_link": "https://www.goodreads.com/book/show/27834600-in-a-dark-dark-wood",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523543089i/27834600.jpg",
     "best_of": "",
     "worst_of": ""
   },
   {
-    "year": "Upcoming",
+    "year": "Currently Reading",
     "title": "The Grace of Kings",
     "author": "Ken Liu",
     "series": "The Dandelion Dynasty #1",
@@ -1616,6 +1616,90 @@
     "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/18952341-the-grace-of-kings",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1403024981i/18952341.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Last House on Needless Street",
+    "author": "Catriona Ward",
+    "series": "",
+    "picked_by": "Alyse",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/54621094-the-last-house-on-needless-street",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1603323638i/54621094.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Maidens",
+    "author": "Alex Michaelides",
+    "series": "",
+    "picked_by": "Barbara",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/45300567-the-maidens",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1608557750i/45300567.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "Empire of Silence",
+    "author": "Christopher Ruocchio",
+    "series": "The Sun Eater #1",
+    "picked_by": "Joey",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/36454667-empire-of-silence",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523897945i/36454667.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "None of This Is True",
+    "author": "Lisa Jewell",
+    "series": "",
+    "picked_by": "Brian",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/62334530-none-of-this-is-true?",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1686092508i/62334530.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Spear Cuts Through Water",
+    "author": "Simon Jimenez",
+    "series": "",
+    "picked_by": "Maria",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/55868456-the-spear-cuts-through-water",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1622813641i/55868456.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Tainted Cup",
+    "author": "Robert Jackson Bennett",
+    "series": "Shadow of the Leviathan #1",
+    "picked_by": "Scott",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/150247395-the-tainted-cup",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1689268335i/150247395.jpg",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
+    "title": "The Will of the Many",
+    "author": "James Islington",
+    "series": "Hierarchy #1",
+    "picked_by": "Vincent",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/58416952-the-will-of-the-many",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1670363463i/58416952.jpg",
     "best_of": "",
     "worst_of": ""
   }
