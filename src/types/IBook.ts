@@ -27,6 +27,7 @@ export default interface IBook {
   worst_of: boolean;
   year_published: number;
   goodreads_link: string;
+  libby_link: string;
   image: string;
   genres: string[];
   picked_by?: string;
