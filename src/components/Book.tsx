@@ -2,6 +2,7 @@ import { Card } from "antd";
 import IBook from "../types/IBook";
 import FavoriteIcon from "./FavoriteIcon";
 import DislikeIcon from "./DislikeIcon";
+import LibbyIcon from "./LibbyIcon";
 
 interface IProps {
   book: IBook;
@@ -23,6 +24,7 @@ const Book = ({ book }: IProps) => {
                 <span className="Book-icon">
                   {book.best_of && <FavoriteIcon />}
                   {book.worst_of && <DislikeIcon />}
+                  {book.libby_link && <a href={book.libby_link} target="_blank"><LibbyIcon/></a>}
                 </span>
                 {book.title}
               </div>
