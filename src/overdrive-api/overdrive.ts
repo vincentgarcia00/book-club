@@ -1,4 +1,3 @@
-import { getLibraries } from "cache-api";
 import { IOverdriveBook, IOverdriveSearchResult } from "./IOverdriveBook";
 import ILibrary from "cache-api/ILibrary";
 
