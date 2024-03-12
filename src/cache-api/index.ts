@@ -1,4 +1,6 @@
-import IBook, { IApiBook, IApiBookStat } from "../types/IBook";
+import IBook from "types/IBook";
+import { ICacheBook, ICacheBookStat } from "./ICacheBook";
+import ILibrary from "./ILibrary";
 
 const isDevEnv = process.env.NODE_ENV === "development";
 const cachePrefix = isDevEnv ? "book-club/cache" : "cache";
@@ -17,26 +19,28 @@ const getFromCache = (url: string) => {
   });
 };
 
-const getBookList = (): Promise<IApiBook[]> => getFromCache("books.json");
+const getBookList = (): Promise<ICacheBook[]> => getFromCache("books.json");
 
-const getBookStats = (): Promise<IApiBookStat[]> => getFromCache("stats.json");
+const getBookStats = (): Promise<ICacheBookStat[]> =>
+  getFromCache("stats.json");
 
 const getReaderStats = () => getFromCache("readerStats.json");
 
-export const getCacheConfig = () => {
-  return getFromCache("/config.json");
-};
+// export const getLibraries = (): Promise<ILibrary[]> =>
+//   getFromCache("libraries.json");
+
+export const getCacheConfig = () => getFromCache("config.json");
 
 export const getBooks = (): Promise<IBook[]> => {
   return Promise.all([getBookList(), getBookStats()]).then(processResults);
 };
 
-const processResults = (results: [IApiBook[], IApiBookStat[]]): IBook[] => {
+const processResults = (results: [ICacheBook[], ICacheBookStat[]]): IBook[] => {
   const [books, stats] = results;
 
   return books
     .map(
-      (book: IApiBook, idx: number) =>
+      (book: ICacheBook, idx: number) =>
         ({
           ...book,
           isCurrentlyReading: book.year === "Currently Reading",

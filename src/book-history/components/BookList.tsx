@@ -1,6 +1,6 @@
 import { Col } from "antd";
 import Book from "./Book";
-import IBook from "../types/IBook";
+import IBook from "types/IBook";
 
 interface IProps {
   books: IBook[];

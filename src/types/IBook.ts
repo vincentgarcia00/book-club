@@ -33,7 +33,3 @@ export default interface IBook {
   picked_by?: string;
   pages?: number;
 }
-
-export interface ICacheConfig {
-  last_updated: string;
-}

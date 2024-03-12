@@ -39,4 +39,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## API
 
-The API is powered by a Google Sheet using [Sheet.Best](https://sheet.best/).
+The API is powered by a Google Sheet using [SheetDB](https://sheetdb.io).
