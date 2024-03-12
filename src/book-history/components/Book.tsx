@@ -25,7 +25,7 @@ const Book = ({ book }: IProps) => {
                   {book.best_of && <FavoriteIcon />}
                   {book.worst_of && <DislikeIcon />}
                   <a
-                    href={`search/${book.title}/${book.author
+                    href={`/book-club/search/${book.title}/${book.author
                       .split(" ")
                       .slice(-1)}`}
                     target="_blank"
