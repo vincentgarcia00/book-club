@@ -6,10 +6,11 @@ import CacheInfo from "./cache/CacheInfo";
 import BookHistoryPage from "./book-history/BookHistoryPage";
 import LibrarySearch from "library-search/LibrarySearch";
 import { Router, Route } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 
 const App = () => {
   return (
-    <Router base="/book-club">
+    <Router hook={useHashLocation}>
       <div className="App">
         <Layout.Header>
           <Header />

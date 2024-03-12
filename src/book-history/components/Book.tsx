@@ -3,6 +3,7 @@ import IBook from "types/IBook";
 import FavoriteIcon from "./FavoriteIcon";
 import DislikeIcon from "./DislikeIcon";
 import LibbyIcon from "./LibbyIcon";
+import { Link } from "wouter";
 
 interface IProps {
   book: IBook;
@@ -25,7 +26,7 @@ const Book = ({ book }: IProps) => {
                   {book.best_of && <FavoriteIcon />}
                   {book.worst_of && <DislikeIcon />}
                   <a
-                    href={`/book-club/search/${book.title}/${book.author
+                    href={`/book-club/#/search/${book.title}/${book.author
                       .split(" ")
                       .slice(-1)}`}
                     target="_blank"
