@@ -96,12 +96,12 @@ body {
     display: none !important;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .hideSm {
     display: none !important;
   }
 }
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 990px) {
   .hideMd {
     display: none !important;
   }
@@ -109,5 +109,23 @@ body {
 @media (min-width: 991px) {
   .hideLg {
     display: none !important;
+  }
+}
+
+/* Library Search on smaller screens */
+@media (max-width: 767px) {
+  .ant-list-item-meta-avatar {
+    display: none;
+  }
+  .ant-alert {
+    padding-inline: 12px;
+    padding-block: 10px;
+  }
+  .ant-alert-message {
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  .ant-alert .anticon {
+    font-size: 18px;
   }
 }

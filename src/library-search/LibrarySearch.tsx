@@ -32,10 +32,26 @@ const LibrarySearch = () => {
           <List.Item.Meta
             avatar={<img src={result.coverUrl} alt={result.title + " Cover"} />}
             title={
-              <div>
-                {result.type === "eBook" && <BookFilled />}
-                {result.type === "Audiobook" && <SoundFilled />}
-                {" " + result.title + " / " + result.author}
+              <div style={{ display: "flex" }}>
+                <img
+                  src={result.coverUrl}
+                  alt={result.title + " Cover"}
+                  style={{ marginRight: 5 }}
+                  className="hideMd hideLg"
+                />
+                <div>
+                  <div>
+                    {result.type === "eBook" && (
+                      <BookFilled style={{ color: "#a0a0a0" }} />
+                    )}
+                    {result.type === "Audiobook" && (
+                      <SoundFilled style={{ color: "#a0a0a0" }} />
+                    )}
+                    &nbsp;
+                    {result.title}
+                  </div>
+                  <div>{result.author}</div>
+                </div>
               </div>
             }
             description={result.libraries.map((library) => {

@@ -1,6 +1,5 @@
 import IBook from "types/IBook";
 import { ICacheBook, ICacheBookStat } from "./ICacheBook";
-import ILibrary from "./ILibrary";
 
 const isDevEnv = process.env.NODE_ENV === "development";
 const cachePrefix = isDevEnv ? "book-club/cache" : "cache";

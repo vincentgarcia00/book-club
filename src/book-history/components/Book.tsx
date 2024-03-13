@@ -3,7 +3,6 @@ import IBook from "types/IBook";
 import FavoriteIcon from "./FavoriteIcon";
 import DislikeIcon from "./DislikeIcon";
 import LibbyIcon from "./LibbyIcon";
-import { Link } from "wouter";
 
 interface IProps {
   book: IBook;
