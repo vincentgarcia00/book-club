@@ -1,0 +1,48 @@
+openapi: 3.1.0
+info:
+  title: Book Club API
+  description: |-
+    This is the API for interacting with 3rd party functionality for our book club
+  version: 1.0.0
+servers:
+  - url: https://3ivo5x5b3k.execute-api.us-east-1.amazonaws.com/prod
+paths:
+  /books:
+    post:
+      summary: Reserve a book
+      description: Reserve a book using Libby's API
+      operationId: reserveBook
+      parameters:
+        - in: header
+          name: Authorization
+          schema:
+            type: string
+          example: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9...."
+      requestBody:
+        description: Update an existent pet in the store
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RequestReserveBook'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+        '500':
+          description: Server Error
+components:
+  schemas:
+    RequestReserveBook:
+      type: object
+      properties:
+        bookId:
+          type: string
+          examples: ["5999223"]
+        libraryName:
+          type: string
+          examples: ["dallaslibrary", "plano"]
+        actionTyoe:
+          type: string
+          enum:
+            - loan
+            - hold
