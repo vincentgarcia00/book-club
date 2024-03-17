@@ -10,7 +10,8 @@ export const handler = function(event, context, callback) {
     var res = {
         "statusCode": 200,
         "headers": {
-            "Content-Type": "*/*"
+            "Content-Type": "*/*",
+            "Access-Control-Allow-Origin": "*"
         },
         "body": "Success"
     };
