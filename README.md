@@ -40,3 +40,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 ## API
 
 The API is powered by a Google Sheet using [SheetDB](https://sheetdb.io).
+
+### Proxy for Libby API
+
+Added a proxy for the Libby API. See the ./lambda/openapi.yaml for the API contract to interact with the API.
+
+#### Getting the Authorization Token
+
+1. Go to https://libbyapp.com/
+2. Sign into your libraries
+3. Retrieve the authorization token from the local storage key dewey.sentry.identity
+4. Then, you can use the bookId returned by the Overdrive Thunder API response and whether you want to put it on hold or loan combined with the library short name (plano / dallaslibrary / etc.) to reserve books! 
