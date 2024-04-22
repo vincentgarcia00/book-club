@@ -2144,7 +2144,7 @@
     "flag.bad_parental_relationship": "0"
   },
   {
-    "year": 0,
+    "year": 2024,
     "title": "The Grace of Kings",
     "year_published": "2015",
     "new": "",
@@ -2156,11 +2156,11 @@
     "author.notes": "",
     "author.nationality": "",
     "translated": "",
-    "flag.sexual_assault": "",
-    "flag.bad_parental_relationship": ""
+    "flag.sexual_assault": "1",
+    "flag.bad_parental_relationship": "1"
   },
   {
-    "year": 0,
+    "year": 2024,
     "title": "The Last House on Needless Street",
     "year_published": "2021",
     "new": "",
