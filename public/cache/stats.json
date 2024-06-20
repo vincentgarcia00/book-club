@@ -2188,11 +2188,11 @@
     "author.notes": "",
     "author.nationality": "Cyprus",
     "translated": "",
-    "flag.sexual_assault": "",
-    "flag.bad_parental_relationship": ""
+    "flag.sexual_assault": "1",
+    "flag.bad_parental_relationship": "1"
   },
   {
-    "year": 0,
+    "year": 2024,
     "title": "Empire of Silence",
     "year_published": "2023",
     "new": "",
