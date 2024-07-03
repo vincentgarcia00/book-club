@@ -2204,11 +2204,11 @@
     "author.notes": "",
     "author.nationality": "",
     "translated": "",
-    "flag.sexual_assault": "",
-    "flag.bad_parental_relationship": ""
+    "flag.sexual_assault": "0",
+    "flag.bad_parental_relationship": "1"
   },
   {
-    "year": 0,
+    "year": 2024,
     "title": "None of This Is True",
     "year_published": "2022",
     "new": "",
