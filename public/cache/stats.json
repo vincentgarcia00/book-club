@@ -2212,7 +2212,7 @@
     "title": "None of This Is True",
     "year_published": "2022",
     "new": "",
-    "genre": "Fantasy",
+    "genre": "Mystery|Thriller",
     "pages": 380,
     "length.audio_minutes": "620",
     "author.gender": "Male",
@@ -2224,11 +2224,11 @@
     "flag.bad_parental_relationship": ""
   },
   {
-    "year": 0,
+    "year": 2024,
     "title": "The Spear Cuts Through Water",
     "year_published": "2018",
     "new": "",
-    "genre": "Mystery|Thriller",
+    "genre": "Fantasy",
     "pages": 525,
     "length.audio_minutes": "1037",
     "author.gender": "Male",
