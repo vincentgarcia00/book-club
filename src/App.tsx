@@ -7,6 +7,7 @@ import BookHistoryPage from "./book-history/BookHistoryPage";
 import LibrarySearch from "library-search/LibrarySearch";
 import { Router, Route } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
+import Bylaws from "bylaws/Bylaws";
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
         <Route path="/" component={BookHistoryPage} />
 
         <Route path="/search/:title/:author" component={LibrarySearch} />
+
+        <Route path="/bylaws" component={Bylaws} />
 
         <Layout.Footer style={{ textAlign: "center" }}>
           <CacheInfo />
