@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <h1 style={{ fontSize: 20, padding: "10px 16px", lineHeight: "32px" }}>
       <span style={{ marginRight: 12 }}>
-        <BookOutlined /> Book Club
+        <a style={{ color: "inherit", textDecoration: "inherit" }} href="/book-club"><BookOutlined /> Book Club</a>
       </span>
       <span style={{ color: "rgba(0,0,0,.45)", fontSize: 14 }}>
         Alive and kicking since 2015
