@@ -24,6 +24,7 @@ const App = () => {
         <Route path="/bylaws" component={Bylaws} />
 
         <Layout.Footer style={{ textAlign: "center" }}>
+          <div><a href="/book-club">Home</a> | <a href="/book-club/#/bylaws">Bylaws</a></div>
           <CacheInfo />
         </Layout.Footer>
       </div>
