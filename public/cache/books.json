@@ -1700,7 +1700,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634748496i/58065033.jpg",
     "libby_link": "",
     "best_of": "",
-    "worst_of": ""
+    "worst_of": "TRUE"
   },
   {
     "year": "2024",
@@ -1712,7 +1712,7 @@
     "goodreads_link": "https://www.goodreads.com/book/show/414999.Childhood_s_End",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320552628i/414999.jpg",
     "libby_link": "",
-    "best_of": "",
+    "best_of": "TRUE",
     "worst_of": ""
   },
   {
@@ -1739,7 +1739,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523543089i/27834600.jpg",
     "libby_link": "",
     "best_of": "",
-    "worst_of": ""
+    "worst_of": "TRUE"
   },
   {
     "year": "2024",
@@ -1817,7 +1817,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1622813641i/55868456.jpg",
     "libby_link": "",
     "best_of": "",
-    "worst_of": ""
+    "worst_of": "TRUE"
   },
   {
     "year": "2024",
@@ -1829,7 +1829,7 @@
     "goodreads_link": "https://www.goodreads.com/book/show/150247395-the-tainted-cup",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1689268335i/150247395.jpg",
     "libby_link": "",
-    "best_of": "",
+    "best_of": "TRUE",
     "worst_of": ""
   },
   {
@@ -1842,7 +1842,7 @@
     "goodreads_link": "https://www.goodreads.com/book/show/58416952-the-will-of-the-many",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1670363463i/58416952.jpg",
     "libby_link": "https://share.libbyapp.com/title/9313750",
-    "best_of": "",
+    "best_of": "TRUE",
     "worst_of": ""
   },
   {
@@ -1855,7 +1855,7 @@
     "goodreads_link": "https://www.goodreads.com/book/show/101124639-bright-young-women",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1676221840i/101124639.jpg",
     "libby_link": "",
-    "best_of": "",
+    "best_of": "TRUE",
     "worst_of": ""
   },
   {
@@ -1898,12 +1898,12 @@
     "worst_of": ""
   },
   {
-    "year": "Currently Reading",
+    "year": "2025",
     "title": "Somewhere Beyond the Sea",
     "author": "TJ Klune",
     "series": "Cerulean Chronicles #2",
     "picked_by": "Scott",
-    "date_read": "",
+    "date_read": "Jan 15",
     "goodreads_link": "https://www.goodreads.com/book/show/199347538-somewhere-beyond-the-sea",
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1724090650i/199347538.jpg",
     "libby_link": "",
@@ -1911,7 +1911,7 @@
     "worst_of": ""
   },
   {
-    "year": "Upcoming",
+    "year": "Currently Reading",
     "title": "Blood Over Bright Haven",
     "author": "ML Wang",
     "series": "",
