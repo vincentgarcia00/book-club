@@ -1,9 +1,7 @@
-import {DislikeFilled} from "@ant-design/icons";
+import { DislikeFilled } from "@ant-design/icons";
 
 const DislikeIcon = () => {
-  return (
-      <DislikeFilled style={{color: 'gray', marginRight: 5}} />
-  );
+  return <DislikeFilled style={{ color: "gray" }} />;
 };
 
 export default DislikeIcon;

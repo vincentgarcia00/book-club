@@ -17,6 +17,7 @@ export interface IApiBookStat {
 }
 
 export default interface IBook {
+  id: string;
   year?: number;
   isCurrentlyReading: boolean;
   isUpcoming: boolean;
@@ -27,7 +28,6 @@ export default interface IBook {
   worst_of: boolean;
   year_published: number;
   goodreads_link: string;
-  libby_link: string;
   image: string;
   genres: string[];
   picked_by?: string;

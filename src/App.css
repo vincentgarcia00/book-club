@@ -5,10 +5,6 @@ body {
 .ant-page-header {
   padding: 10px 16px;
 }
-.ant-card-bordered .ant-card-cover {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-}
 .App {
   width: 100%;
 }
@@ -33,36 +29,18 @@ body {
   border-top: 1px solid #939393 !important;
 }
 
-.Book {
-  height: 100%;
-}
 .Book .ant-card {
   flex: 1 0 250px;
   max-width: 250px;
-  height: 100%;
   position: relative;
   border-radius: 2px;
 }
-.Book .ant-card-bordered {
-  border: 1px solid #ccc;
-}
-.Book .ant-card-cover {
-  position: relative;
-}
-.Book .ant-card .ant-card-cover img {
+.Book .ant-card img {
   border-radius: 2px;
+  width: 100%;
 }
 .Book-year {
   letter-spacing: -1px;
-}
-.Book .ant-card-meta-title {
-  overflow: unset;
-  white-space: normal;
-  line-height: 1.2;
-  margin-bottom: 3px !important;
-}
-.Book .ant-card-body {
-  border-top: 1px solid #ccc;
 }
 
 .BookList:not(.BookList-Upcoming) {

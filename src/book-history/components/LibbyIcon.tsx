@@ -1,9 +1,7 @@
-import {BookFilled} from "@ant-design/icons";
+import { BookOutlined } from "@ant-design/icons";
 
 const LibbyIcon = () => {
-  return (
-      <BookFilled style={{color: '#A61C49', marginRight: 5}} />
-  );
+  return <BookOutlined />;
 };
 
 export default LibbyIcon;

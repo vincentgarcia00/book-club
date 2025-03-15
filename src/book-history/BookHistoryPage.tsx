@@ -1,35 +1,29 @@
 import { useEffect, useState } from "react";
-import "antd/dist/reset.css";
 import Book from "./components/Book";
 import BookList from "./components/BookList";
 import UpcomingBooks from "./components/UpcomingBooks";
-import * as api from "cache-api";
 import { Row, Col, Divider, Button, Tag, Spin } from "antd";
 import { DoubleRightOutlined, PushpinOutlined } from "@ant-design/icons";
 import FavoriteIcon from "./components/FavoriteIcon";
 import DislikeIcon from "./components/DislikeIcon";
 import IBook from "types/IBook";
 
+interface IProps {
+  books: IBook[];
+}
+
 interface IGenreList {
   [key: string]: number;
 }
 
-const BookHistoryPage = () => {
-  const [books, setBooks] = useState<IBook[]>([]);
+const BookHistoryPage = ({ books }: IProps) => {
   const [filteredBooks, setFilteredBooks] = useState<IBook[]>([]);
   const [showFavorites, setShowFavorites] = useState<boolean>(false);
   const [showDisliked, setShowDisliked] = useState<boolean>(false);
-  const [error, setError] = useState<string>();
 
   useEffect(() => {
-    api
-      .getBooks()
-      .then((books) => {
-        setBooks(books);
-        setFilteredBooks(books);
-      })
-      .catch(setError);
-  }, []);
+    setFilteredBooks(books);
+  }, [books]);
 
   const toggleFavorites = () => {
     if (!showFavorites) {
@@ -52,11 +46,6 @@ const BookHistoryPage = () => {
   const filterGenre = (genre: string) => {
     setFilteredBooks(books.filter((b) => b.genres.indexOf(genre) > -1));
   };
-
-  if (error) {
-    console.error(error);
-    return <>There was an error</>;
-  }
 
   const years = [...new Set(filteredBooks.map((b) => b.year))].filter(
     (y) => y && !isNaN(y)

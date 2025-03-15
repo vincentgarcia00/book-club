@@ -42,6 +42,7 @@ const processResults = (results: [ICacheBook[], ICacheBookStat[]]): IBook[] => {
       (book: ICacheBook, idx: number) =>
         ({
           ...book,
+          id: book.title.replace(/ /g, "_").toLowerCase(),
           isCurrentlyReading: book.year === "Currently Reading",
           isUpcoming: book.year === "Upcoming",
           year: Number(book.year),
