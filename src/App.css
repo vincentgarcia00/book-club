@@ -95,6 +95,9 @@ body {
   .ant-list-item-meta-avatar {
     display: none;
   }
+  .BookList:not(.BookList-Upcoming) {
+    padding: 0 4px;
+  }
   .ant-alert {
     padding-inline: 12px;
     padding-block: 10px;
