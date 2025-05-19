@@ -23,7 +23,7 @@ const Book = ({ book }: IProps) => {
 
   if (book.best_of) {
     return (
-      <Badge.Ribbon text={<FavoriteIcon />} color="#c60000">
+      <Badge.Ribbon text={<FavoriteIcon color="white" />} color="#c60000">
         {content}
       </Badge.Ribbon>
     );

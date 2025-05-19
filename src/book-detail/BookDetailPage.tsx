@@ -18,17 +18,15 @@ const BookDetailPage = ({ book }: IProps) => {
         </div>
         <div>
           <div>
-            <Typography.Title level={2}>
+            <Typography.Title level={2} className="book-detail-title">
               {book.title}
-
-              <Typography.Text type="secondary">
+              <Typography.Text type="secondary" className="book-detail-author">
                 <div>by {book.author}</div>
               </Typography.Text>
-
               {!!book.series && (
-                <Typography.Text type="secondary">
-                  <div>{book.series}</div>
-                </Typography.Text>
+                  <Typography.Text type="secondary" className="book-detail-author">
+                    <div>{book.series}</div>
+                  </Typography.Text>
               )}
             </Typography.Title>
           </div>

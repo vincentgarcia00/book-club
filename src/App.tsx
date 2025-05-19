@@ -16,10 +16,18 @@ import * as api from "cache-api";
 const App = () => {
   const [books, setBooks] = useState<IBook[]>([]);
   const [error, setError] = useState<string>();
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem("darkMode") === "true";
+  });
 
   useEffect(() => {
     api.getBooks().then(setBooks).catch(setError);
   }, []);
+
+  useEffect(() => {
+    document.body.classList.toggle("dark-mode", darkMode);
+    localStorage.setItem("darkMode", String(darkMode));
+  }, [darkMode]);
 
   if (error) {
     console.error(error);
@@ -30,7 +38,7 @@ const App = () => {
     <Router hook={useHashLocation}>
       <div className="App">
         <Layout.Header>
-          <Header />
+          <Header darkMode={darkMode} onToggleDarkMode={() => setDarkMode((v) => !v)} />
         </Layout.Header>
 
         <Switch>
