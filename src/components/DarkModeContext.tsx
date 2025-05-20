@@ -8,7 +8,12 @@ interface DarkModeContextType {
 const DarkModeContext = createContext<DarkModeContextType | undefined>(undefined);
 
 export const DarkModeProvider = ({ children }: { children: ReactNode }) => {
-  const [darkMode, setDarkMode] = useState(() => localStorage.getItem("darkMode") === "true");
+  const getSystemDarkMode = () => window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const [darkMode, setDarkMode] = useState(() => {
+    const stored = localStorage.getItem("darkMode");
+    if (stored !== null) return stored === "true";
+    return getSystemDarkMode();
+  });
 
   useEffect(() => {
     document.body.classList.toggle("dark-mode", darkMode);
