@@ -10,6 +10,7 @@ import IBook from "types/IBook";
 
 interface IProps {
   books: IBook[];
+
 }
 
 interface IGenreList {

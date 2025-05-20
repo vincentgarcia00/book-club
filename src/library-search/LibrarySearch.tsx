@@ -40,7 +40,7 @@ const LibrarySearch = () => {
                   className="hideMd hideLg"
                 />
                 <div>
-                  <div>
+                  <div className="library-search-title">
                     {result.type === "eBook" && (
                       <BookFilled style={{ color: "#a0a0a0" }} />
                     )}
@@ -50,7 +50,7 @@ const LibrarySearch = () => {
                     &nbsp;
                     {result.title}
                   </div>
-                  <div>{result.author}</div>
+                  <div className="library-search-author">{result.author}</div>
                 </div>
               </div>
             }

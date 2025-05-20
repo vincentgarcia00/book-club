@@ -1,5 +1,41 @@
+/* Theme variables */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --divider-color: #939393;
+  --genre-tag-bg: #f0f0f0;
+  --genre-tag-color: #222;
+  --genre-tag-border: #d9d9d9;
+  --header-subtitle-color: rgba(0,0,0,.45);
+  --year-divider-color: #939393;
+  --year-divider-bg: #fff;
+  --year-divider-text: #555;
+  --book-detail-title: #111;
+  --book-detail-author: #555;
+  --search-title-color: #111;
+  --search-author-color: #555;
+}
+
+body.dark-mode {
+  --background-color: #181818;
+  --text-color: #f0f0f0;
+  --divider-color: #444444;
+  --genre-tag-bg: #222;
+  --genre-tag-color: #f0f0f0;
+  --genre-tag-border: #444;
+  --header-subtitle-color: #b0b0b0;
+  --year-divider-color: #444444;
+  --year-divider-bg: #181818;
+  --year-divider-text: #b0b0b0;
+  --book-detail-title: #f0f0f0;
+  --book-detail-author: #b0b0b0;
+  --search-title-color: #f0f0f0;
+  --search-author-color: #b0b0b0;
+}
+
 body {
-  background-color: #ffffff;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .ant-page-header {
@@ -26,7 +62,12 @@ body {
 }
 .ant-divider-with-text::before,
 .ant-divider-with-text::after {
-  border-top: 1px solid #939393 !important;
+  border-top: 1px solid var(--divider-color) !important;
+}
+
+.ant-divider-with-text {
+  color: var(--year-divider-text) !important;
+  background: var(--year-divider-bg);
 }
 
 .Book .ant-card {
@@ -58,6 +99,10 @@ body {
 .GenreCloud .ant-tag {
   margin: 3px;
   cursor: pointer;
+  background: var(--genre-tag-bg) !important;
+  color: var(--genre-tag-color) !important;
+  border-color: var(--genre-tag-border) !important;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 
 /*{
@@ -109,4 +154,43 @@ body {
   .ant-alert .anticon {
     font-size: 18px;
   }
+}
+
+.header-subtitle {
+  color: var(--header-subtitle-color);
+  font-size: 14px;
+}
+
+.book-detail-title,
+.book-detail-title .ant-typography {
+  color: var(--book-detail-title) !important;
+}
+.book-detail-author,
+.book-detail-author .ant-typography {
+  color: var(--book-detail-author) !important;
+}
+.book-detail-author {
+  color: var(--book-detail-author);
+}
+
+.library-search-title {
+  color: var(--search-title-color) !important;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.library-search-author {
+  color: var(--search-author-color) !important;
+  font-size: 1em;
+}
+
+/* Dark mode for Ant Design Drawer (Upcoming Modal) */
+body.dark-mode .ant-drawer-content {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+body.dark-mode .ant-drawer-title {
+  color: var(--text-color) !important;
+}
+body.dark-mode .ant-drawer-close {
+  color: var(--text-color) !important;
 }

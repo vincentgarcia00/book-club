@@ -1,7 +1,7 @@
 import { HeartFilled } from "@ant-design/icons";
 
-const FavoriteIcon = () => {
-  return <HeartFilled style={{ color: "white" }} />;
+const FavoriteIcon = ({ color = "gray" }: { color?: string }) => {
+  return <HeartFilled style={{ color }} />;
 };
 
 export default FavoriteIcon;

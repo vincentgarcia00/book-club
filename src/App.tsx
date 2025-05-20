@@ -12,6 +12,7 @@ import BookDetailPage from "./book-detail/BookDetailPage";
 import { useEffect, useState } from "react";
 import IBook from "types/IBook";
 import * as api from "cache-api";
+import { DarkModeProvider } from "./components/DarkModeContext";
 
 const App = () => {
   const [books, setBooks] = useState<IBook[]>([]);
@@ -27,38 +28,40 @@ const App = () => {
   }
 
   return (
-    <Router hook={useHashLocation}>
-      <div className="App">
-        <Layout.Header>
-          <Header />
-        </Layout.Header>
+    <DarkModeProvider>
+      <Router hook={useHashLocation}>
+        <div className="App">
+          <Layout.Header>
+            <Header />
+          </Layout.Header>
 
-        <Switch>
-          <Route path="/">
-            <BookHistoryPage books={books} />
-          </Route>
+          <Switch>
+            <Route path="/">
+              <BookHistoryPage books={books} />
+            </Route>
 
-          <Route path="/book/:id">
-            {(params) => {
-              var book = books.find((b) => b.id === params.id);
-              if (!book) return <div>Book not found</div>;
-              return <BookDetailPage book={book} />;
-            }}
-          </Route>
+            <Route path="/book/:id">
+              {(params) => {
+                var book = books.find((b) => b.id === params.id);
+                if (!book) return <div>Book not found</div>;
+                return <BookDetailPage book={book} />;
+              }}
+            </Route>
 
-          <Route path="/search/:title/:author" component={LibrarySearch} />
+            <Route path="/search/:title/:author" component={LibrarySearch} />
 
-          <Route path="/bylaws" component={Bylaws} />
-        </Switch>
+            <Route path="/bylaws" component={Bylaws} />
+          </Switch>
 
-        <Layout.Footer style={{ textAlign: "center" }}>
-          <div>
-            <a href="/book-club">Home</a> | <Link href="/bylaws">Bylaws</Link>
-          </div>
-          <CacheInfo />
-        </Layout.Footer>
-      </div>
-    </Router>
+          <Layout.Footer style={{ textAlign: "center" }}>
+            <div>
+              <a href="/book-club">Home</a> | <Link href="/bylaws">Bylaws</Link>
+            </div>
+            <CacheInfo />
+          </Layout.Footer>
+        </div>
+      </Router>
+    </DarkModeProvider>
   );
 };
 
