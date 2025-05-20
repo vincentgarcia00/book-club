@@ -1,7 +1,9 @@
 import { BookOutlined } from "@ant-design/icons";
 import { Switch } from "antd";
+import { useDarkMode } from "./DarkModeContext";
 
-const Header = ({ darkMode, onToggleDarkMode }: { darkMode: boolean; onToggleDarkMode: () => void }) => {
+const Header = () => {
+  const { darkMode, toggleDarkMode } = useDarkMode();
   return (
     <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
       <h1 style={{ fontSize: 20, padding: "10px 16px", lineHeight: "32px", margin: 0 }}>
@@ -13,7 +15,7 @@ const Header = ({ darkMode, onToggleDarkMode }: { darkMode: boolean; onToggleDar
         </span>
       </h1>
       <div style={{ marginLeft: 16, marginRight: 16 }}>
-        <Switch checked={darkMode} onChange={onToggleDarkMode} checkedChildren="🌙" unCheckedChildren="☀️" />
+        <Switch checked={darkMode} onChange={toggleDarkMode} checkedChildren="🌙" unCheckedChildren="☀️" />
       </div>
     </div>
   );
