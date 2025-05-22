@@ -6,6 +6,11 @@ dotenv.config();
 const baseUrl = process.env.SHEETDB_URL + process.env.SHEETDB_API_ID;
 const apiKey = process.env.SHEETDB_API_KEY;
 
+if (!process.env.SHEETDB_URL || !process.env.SHEETDB_API_ID || !process.env.SHEETDB_API_KEY) {
+  console.error('Missing one or more required environment variables: SHEETDB_URL, SHEETDB_API_ID, SHEETDB_API_KEY');
+  process.exit(1);
+}
+
 const fetchData = (url, file) => {
   fetch(`${baseUrl}${url ?? ""}`, {
     headers: {
