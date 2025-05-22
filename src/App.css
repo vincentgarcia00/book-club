@@ -161,6 +161,17 @@ body {
   font-size: 14px;
 }
 
+.header-subtitle.subtitle-responsive {
+  white-space: nowrap;
+  color: var(--header-subtitle-color);
+}
+
+@media (max-width: 575px) {
+  .header-subtitle.subtitle-responsive {
+    display: block;
+  }
+}
+
 .book-detail-title,
 .book-detail-title .ant-typography {
   color: var(--book-detail-title) !important;
