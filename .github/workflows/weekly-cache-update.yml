@@ -1,0 +1,52 @@
+name: Weekly Cache Update
+
+on:
+  schedule:
+    - cron: '0 7 * * 4' # 2 AM Central Time (CDT is UTC-5, so 2+5=7)
+  workflow_dispatch:
+
+jobs:
+  update-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: List scripts directory for debugging
+        run: ls -l scripts
+
+      - name: Make script executable
+        run: chmod +x scripts/doTheThing.sh
+
+      - name: Set up Git user
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Run cache update script (ignore lint errors)
+        run: ./scripts/doTheThing.sh || true
+        env:
+          SHEETDB_URL: ${{ secrets.SHEETDB_URL }}
+          SHEETDB_API_ID: ${{ secrets.SHEETDB_API_ID }}
+          SHEETDB_API_KEY: ${{ secrets.SHEETDB_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CI: false
+
+      - name: Build the project
+        run: yarn build
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          yarn deploy -- -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
