@@ -41,12 +41,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CI: false
 
-      - name: Build the project
-        run: yarn build
+      - name: Stage updated cache
+        run: git add public/
 
-      - name: Deploy to GitHub Pages
+      - name: Commit cache update
         run: |
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git commit -m "Update cache" || echo "No changes to commit"
+
+      - name: Push cache update
+        run: git push origin HEAD
+
+      - name: Deploy with gh-pages
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           yarn deploy -- -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
