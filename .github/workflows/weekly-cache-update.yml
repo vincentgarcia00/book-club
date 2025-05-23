@@ -48,6 +48,9 @@ jobs:
         run: |
           git commit -m "Update cache" || echo "No changes to commit"
 
+      - name: Pull latest changes
+        run: git pull --rebase origin HEAD
+
       - name: Push cache update
         run: git push origin HEAD
 
