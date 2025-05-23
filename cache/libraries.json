@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Dallas Public Library",
+    "key": "dallaslibrary",
+    "websiteId": 441
+  },
+  {
+    "name": "Frisco Public Library",
+    "key": "frisco",
+    "websiteId": 313
+  },
+  {
+    "name": "Plano Public Library",
+    "key": "plano",
+    "websiteId": 310
+  },
+  {
+    "name": "Richardson Public Library",
+    "key": "richardson",
+    "websiteId": 556
+  },
+  {
+    "name": "Harris County Public Library",
+    "key": "hcpl",
+    "websiteId": 151
+  }
+]

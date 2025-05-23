@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/book-club/static/css/main.b7ed58a1.css",
+    "main.js": "/book-club/static/js/main.dc17fe7a.js",
+    "index.html": "/book-club/index.html",
+    "main.b7ed58a1.css.map": "/book-club/static/css/main.b7ed58a1.css.map",
+    "main.dc17fe7a.js.map": "/book-club/static/js/main.dc17fe7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7ed58a1.css",
+    "static/js/main.dc17fe7a.js"
+  ]
+}
