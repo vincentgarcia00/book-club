@@ -8,5 +8,5 @@ fi
 
 git add public/
 git commit -m "Update cache"
-git push origin master
+git push origin auto-cache
 npm run deploy
