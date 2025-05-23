@@ -41,15 +41,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CI: false
 
+      - name: Pull latest changes
+        run: git pull --rebase origin HEAD
+
       - name: Stage updated cache
         run: git add public/
 
       - name: Commit cache update
         run: |
           git commit -m "Update cache" || echo "No changes to commit"
-
-      - name: Pull latest changes
-        run: git pull --rebase origin HEAD
 
       - name: Push cache update
         run: git push origin HEAD
