@@ -40,13 +40,3 @@ jobs:
           SHEETDB_API_KEY: ${{ secrets.SHEETDB_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CI: false
-
-      - name: Build the project
-        run: yarn build
-
-      - name: Deploy to GitHub Pages
-        run: |
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          yarn deploy -- -u "github-actions-bot <support+actions@github.com>"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
