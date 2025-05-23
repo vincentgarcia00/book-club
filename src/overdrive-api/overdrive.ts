@@ -18,10 +18,10 @@ const get = (url: string) => {
   });
 };
 
-const formats = {
-  book: "ebook-kindle,ebook-overdrive,ebook-epub-adobe,ebook-pdf-adobe,ebook-kobo",
-  audiobook: "audiobook-overdrive,audiobook-mp3",
-};
+// const formats = {
+//   book: "ebook-kindle,ebook-overdrive,ebook-epub-adobe,ebook-pdf-adobe,ebook-kobo",
+//   audiobook: "audiobook-overdrive,audiobook-mp3",
+// };
 
 export const search = (
   libraryName: string,

@@ -23,7 +23,7 @@ const getBookList = (): Promise<ICacheBook[]> => getFromCache("books.json");
 const getBookStats = (): Promise<ICacheBookStat[]> =>
   getFromCache("stats.json");
 
-const getReaderStats = () => getFromCache("readerStats.json");
+// const getReaderStats = () => getFromCache("readerStats.json");
 
 // export const getLibraries = (): Promise<ILibrary[]> =>
 //   getFromCache("libraries.json");
