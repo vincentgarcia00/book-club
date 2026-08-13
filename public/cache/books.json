@@ -2088,7 +2088,7 @@
     "worst_of": ""
   },
   {
-    "year": "Currently Reading",
+    "year": "2026",
     "title": "All That We See or Seem",
     "author": "Ken Liu",
     "series": "Julia Z #1",
@@ -2100,7 +2100,7 @@
     "worst_of": ""
   },
   {
-    "year": "Upcoming",
+    "year": "Currently Reading",
     "title": "Going Postal",
     "author": "Terry Pratchett",
     "series": "Discworld #33",
@@ -2125,11 +2125,23 @@
   },
   {
     "year": "Upcoming",
+    "title": "Lonesome Dove",
+    "author": "Larry McMurtry",
+    "series": "",
+    "picked_by": "Erin",
+    "date_read": "",
+    "goodreads_link": "https://www.goodreads.com/book/show/256008",
+    "image": "",
+    "best_of": "",
+    "worst_of": ""
+  },
+  {
+    "year": "Upcoming",
     "title": "One Dark Window",
     "author": "Rachel Gillig",
     "series": "The Shepherd King #1",
     "picked_by": "Barbara",
-    "date_read": "Sep 23",
+    "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/58340706-one-dark-window",
     "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1734440714i/58340706.jpg",
     "best_of": "",
@@ -2141,7 +2153,7 @@
     "author": "Mary Doria Russell",
     "series": "",
     "picked_by": "Maria",
-    "date_read": "Oct 21",
+    "date_read": "",
     "goodreads_link": "https://www.goodreads.com/book/show/334176.The_Sparrow",
     "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1230829367i/334176.jpg",
     "best_of": "",
