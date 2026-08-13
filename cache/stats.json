@@ -3132,7 +3132,7 @@
     "summary": ""
   },
   {
-    "year": 0,
+    "year": 2026,
     "title": "All That We See or Seem",
     "year_published": "2025",
     "new": "",
@@ -3179,6 +3179,24 @@
     "author.ethnicity": "White",
     "author.notes": "",
     "author.nationality": "British",
+    "translated": "",
+    "flag.sexual_assault": "",
+    "flag.bad_parental_relationship": "",
+    "general_thoughts": "",
+    "summary": ""
+  },
+  {
+    "year": 0,
+    "title": "Lonesome Dove",
+    "year_published": "1990",
+    "new": "",
+    "genre": "Western",
+    "pages": 964,
+    "length.audio_minutes": "",
+    "author.gender": "",
+    "author.ethnicity": "",
+    "author.notes": "",
+    "author.nationality": "",
     "translated": "",
     "flag.sexual_assault": "",
     "flag.bad_parental_relationship": "",
